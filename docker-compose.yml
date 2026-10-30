@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  sih-civic-ai:
+    build: .
+    image: sih2026-civic-ai:latest
+    container_name: sih2026-civic-ai-service
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      - HOST=0.0.0.0
+      - HEADLESS=1
+    restart: unless-stopped
