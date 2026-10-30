@@ -1,0 +1,282 @@
+# Civic Domain Taxonomy Configuration (SIH 2026 - Jharkhand & India Civic Context)
+version: "1.1.0"
+default_category: "Other"
+
+categories:
+  - id: "roads_infrastructure"
+    name: "Roads / Infrastructure"
+    aliases: ["Roads & Infrastructure", "Roads and Infrastructure", "Roads"]
+    description: "Issues related to potholes, damaged roads, broken dividers, collapsed culverts or bridges, unfinished road construction, or road cracks."
+    problem_types:
+      - name: "Pothole"
+        keywords: ["pothole", "potholes", "crater", "gaddha", "hole on road", "road hole", "asphalt crater"]
+        description: "Potholes or surface depressions in the roadway."
+      - name: "Road Crack"
+        keywords: ["crack", "cracks", "fissure", "fracture", "alligator crack"]
+        description: "Surface fractures or fissures in the road pavement."
+      - name: "Damaged Road"
+        keywords: ["damaged road", "broken road", "sadak kharab", "eroded road", "uneven road", "tar broken"]
+        description: "Broken, crumbling, or severely eroded roadway surface."
+      - name: "Damaged Road Sign"
+        keywords: ["signboard", "road sign", "traffic sign", "broken sign", "directional board"]
+        description: "Damaged, bent, or missing road traffic signage."
+      - name: "Broken Public Infrastructure"
+        keywords: ["divider", "footpath", "sidewalk", "railing", "guard rail", "bridge", "pul", "culvert"]
+        description: "Broken dividers, damaged footpaths, railings, or collapsed culverts."
+      - name: "Fallen Tree Obstruction"
+        keywords: ["fallen tree", "tree branch", "tree fell", "ped gir gaya", "blocking road"]
+        description: "Trees or heavy branches fallen and blocking the roadway."
+    keywords:
+      - "road"
+      - "pothole"
+      - "potholes"
+      - "damaged road"
+      - "sadak"
+      - "gaddha"
+      - "culvert"
+      - "bridge"
+      - "pul"
+      - "divider"
+      - "footpath"
+      - "sidewalk"
+      - "crater"
+      - "tar"
+      - "asphalt"
+      - "speed breaker"
+      - "crack"
+      - "cracks"
+
+  - id: "water_supply"
+    name: "Water Supply"
+    aliases: ["Water Supply & Drainage", "Water"]
+    description: "Issues related to drinking water supply, pipeline leaks, overhead tank overflow, waterlogging, flooding, dry borewells, or contaminated tap water."
+    problem_types:
+      - name: "Waterlogging"
+        keywords: ["waterlogging", "waterlogged", "standing water", "water logging", "water accumulation", "stagnant water on road"]
+        description: "Accumulation of standing water on roads or public ways."
+      - name: "Flooding"
+        keywords: ["flood", "flooding", "flooded", "submerged", "heavy rain flood", "deluge", "baad"]
+        description: "Severe flooding submerging roads, lanes, or surrounding buildings."
+      - name: "Tank Overflow"
+        keywords: ["overhead tank", "water tank", "tank overflow", "tank overflowing", "tanker overflow"]
+        description: "Elevated or ground water storage tank overflowing continuously."
+      - name: "Pipeline Leakage"
+        keywords: ["pipe leak", "pipeline burst", "leaking pipe", "pipe broken", "water gushing", "pipe leakage"]
+        description: "Broken or leaking municipal water supply pipeline."
+      - name: "Contaminated Water"
+        keywords: ["dirty water", "muddy water", "foul water", "polluted water", "ganda paani", "yellow water", "smelly water"]
+        description: "Contaminated, discolored, or muddy tap drinking water."
+      - name: "Water Scarcity"
+        keywords: ["no water", "dry borewell", "no supply", "paani nahi aa raha", "water crisis", "dry tap", "handpump broken"]
+        description: "Complete lack of water supply or broken dry borewell/handpump."
+    keywords:
+      - "water"
+      - "pipeline"
+      - "leak"
+      - "leakage"
+      - "overflow"
+      - "tank"
+      - "overhead tank"
+      - "tap"
+      - "drinking water"
+      - "borewell"
+      - "handpump"
+      - "paani"
+      - "jal"
+      - "tanker"
+      - "contamination"
+      - "dirty water"
+      - "waterlogging"
+      - "flood"
+      - "flooding"
+      - "flooded"
+
+  - id: "electricity"
+    name: "Electricity"
+    aliases: ["Power & Electricity", "Power"]
+    description: "Issues related to power cuts, sparking transformers, dangling live wires, broken electric poles, low voltage, or meter faults."
+    problem_types:
+      - name: "Exposed / Dangling Wire"
+        keywords: ["live wire", "dangling wire", "snapped wire", "open wire", "loose wire", "wire hanging", "bare wire"]
+        description: "Snapped, dangling, or exposed high-voltage electric wires posing shock hazard."
+      - name: "Sparking Transformer"
+        keywords: ["transformer spark", "sparking", "sparks", "transformer fire", "short circuit", "blast", "transformer blast"]
+        description: "Transformer sparking, smoking, or in danger of exploding."
+      - name: "Broken Electric Pole"
+        keywords: ["electric pole", "pole broken", "tilted pole", "khamba toot gaya", "fallen pole"]
+        description: "Electric pole bent, tilted, or collapsed onto public pathway."
+      - name: "Power Outage"
+        keywords: ["no electricity", "no power", "power outage", "power cut", "blackout", "no current", "bijli gul", "outage", "light chali gayi", "load shedding", "electricity outage", "electricity not working"]
+        description: "Unscheduled or prolonged electricity blackout in the locality."
+      - name: "Low Voltage / Meter Fault"
+        keywords: ["low voltage", "voltage fluctuation", "meter burnt", "meter sparking", "dim light"]
+        description: "Severe voltage drop or malfunctioning electric meter."
+    keywords:
+      - "electricity"
+      - "power"
+      - "power cut"
+      - "outage"
+      - "transformer"
+      - "sparking"
+      - "live wire"
+      - "wire"
+      - "dangling wire"
+      - "electric pole"
+      - "voltage"
+      - "blackout"
+      - "bijli"
+      - "current"
+      - "short circuit"
+      - "meter"
+
+  - id: "sanitation_waste"
+    name: "Sanitation / Waste"
+    aliases: ["Sanitation & Waste", "Sanitation", "Solid Waste Management"]
+    description: "Issues related to overflowing garbage bins, open dumping, clogged sewage drains, stench, uncollected municipal trash, or open drains."
+    problem_types:
+      - name: "Garbage Dumping"
+        keywords: ["garbage dump", "trash dump", "illegal dump", "waste pile", "kachra", "kooda daan", "heaped garbage"]
+        description: "Illegal open garbage dumping or uncollected roadside waste heaps."
+      - name: "Overflowing Garbage Bin"
+        keywords: ["overflowing dustbin", "dustbin full", "bin overflowing", "kachra phail gaya", "spilled garbage"]
+        description: "Municipal dustbin overflowing with trash spilling onto walkways."
+      - name: "Open Drain Hazard"
+        keywords: ["open drain", "uncovered drain", "khula naala", "drain slab broken", "missing manhole cover", "open gutter"]
+        description: "Uncovered deep drainage canal or broken slab posing a falling hazard."
+      - name: "Sewage Overflow"
+        keywords: ["sewage", "sewer overflow", "gutter overflow", "black water", "naali jaam", "choked drain", "stench"]
+        description: "Clogged sewage drain overflowing foul black effluent into roads or houses."
+    keywords:
+      - "garbage"
+      - "trash"
+      - "waste"
+      - "dustbin"
+      - "dump"
+      - "kooda"
+      - "kachra"
+      - "drain"
+      - "sewage"
+      - "drainage"
+      - "naali"
+      - "gutter"
+      - "stench"
+      - "smell"
+      - "cleaning"
+      - "sanitation"
+      - "safai"
+
+  - id: "public_safety"
+    name: "Public Safety"
+    aliases: ["Public Safety & Security", "Safety"]
+    description: "Issues related to broken or non-functioning streetlights, missing manhole covers, unsafe dark alleys, fire hazards, accidents, or stray animal attacks."
+    problem_types:
+      - name: "Broken Streetlight"
+        keywords: ["streetlight", "street light", "dark road", "street lamp", "batti nahi jal rahi", "andhera", "light kharab"]
+        description: "Broken, flickering, or unlit streetlights causing darkness and safety hazards."
+      - name: "Missing Manhole Cover"
+        keywords: ["missing manhole", "manhole open", "manhole cover missing", "gutter cover", "open hole"]
+        description: "Deep manhole with missing lid creating an imminent life-safety risk."
+      - name: "Fire Hazard"
+        keywords: ["fire", "flames", "smoke", "burning", "aag", "cylinder blast"]
+        description: "Active fire, open flames, or hazardous burning in a public place."
+      - name: "Accident Hazard"
+        keywords: ["accident", "collision", "vehicle crash", "turned over", "road hazard", "two-wheeler fell"]
+        description: "Road obstacle or crash causing severe vehicular traffic hazard."
+      - name: "Stray Animal Menace"
+        keywords: ["stray dog", "dog bite", "stray cattle", "bull fighting", "rabid dog"]
+        description: "Pack of aggressive stray dogs or cattle blocking public streets."
+    keywords:
+      - "safety"
+      - "streetlight"
+      - "street light"
+      - "dark"
+      - "darkness"
+      - "manhole"
+      - "open manhole"
+      - "stray dog"
+      - "stray cattle"
+      - "batti"
+      - "andhera"
+      - "unsafe"
+      - "harassment"
+      - "theft"
+      - "accident"
+      - "fire"
+
+  - id: "public_health"
+    name: "Public Health"
+    aliases: ["Healthcare & Public Health", "Health"]
+    description: "Issues related to stagnant water breeding mosquitoes (dengue/malaria), Primary Health Centre (PHC) staff or medicine absence, dead animal disposal, or disease outbreaks."
+    problem_types:
+      - name: "Disease Outbreak / Mosquito Breeding"
+        keywords: ["dengue", "malaria", "mosquito", "larvae", "stagnant pool", "epidemic", "fever outbreak"]
+        description: "Stagnant vector-breeding water causing dengue or malaria threat."
+      - name: "Dead Animal Carcass"
+        keywords: ["dead animal", "carcass", "dead dog", "dead cow", "rotting animal", "stench of dead animal"]
+        description: "Rotting animal carcass on road requiring sanitary municipal disposal."
+      - name: "PHC / Clinic Deficiency"
+        keywords: ["phc", "health center", "doctor absent", "no medicines", "clinic closed", "hospital negligence"]
+        description: "Primary Health Center lack of doctors, medicines, or emergency services."
+    keywords:
+      - "health"
+      - "hospital"
+      - "clinic"
+      - "phc"
+      - "doctor"
+      - "medicine"
+      - "dengue"
+      - "malaria"
+      - "mosquito"
+      - "stagnant water"
+      - "dead animal"
+      - "carcass"
+      - "swasthya"
+      - "bimari"
+      - "illness"
+      - "epidemic"
+
+  - id: "education_infrastructure"
+    name: "Education Infrastructure"
+    aliases: ["Education", "Schools"]
+    description: "Issues related to government school buildings, cracked school walls or roofs, lack of student drinking water or functional toilets, broken desks, or missing boundary walls."
+    problem_types:
+      - name: "Dilapidated School Building"
+        keywords: ["cracked ceiling", "roof leaking", "plaster falling", "school building damaged", "dilapidated school", "wall cracked"]
+        description: "School classroom ceiling, wall, or structure in hazardous condition."
+      - name: "Missing School Amenities"
+        keywords: ["school toilet", "student toilet", "no drinking water in school", "broken desks", "blackboard", "boundary wall broken"]
+        description: "Lack of basic sanitation or furniture in educational facility."
+    keywords:
+      - "school"
+      - "classroom"
+      - "desk"
+      - "bench"
+      - "blackboard"
+      - "ceiling"
+      - "school roof"
+      - "school toilet"
+      - "boundary wall"
+      - "vidyalaya"
+      - "pathshala"
+      - "students"
+      - "midday meal"
+      - "anganwadi"
+
+  - id: "other"
+    name: "Other"
+    aliases: ["General", "Administrative"]
+    description: "Civic grievances not specifically covered by the primary categories, such as noise pollution, illegal hoardings, or administrative delays."
+    problem_types:
+      - name: "General Civic Grievance"
+        keywords: ["noise", "loudspeaker", "encroachment", "illegal banner", "office", "certificate", "complaint", "delay"]
+        description: "Miscellaneous public grievances and administrative issues."
+    keywords:
+      - "noise"
+      - "loudspeaker"
+      - "encroachment"
+      - "illegal banner"
+      - "office"
+      - "certificate"
+      - "complaint"
+      - "other"
+      - "general"
