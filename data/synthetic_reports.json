@@ -1,0 +1,3434 @@
+[
+  {
+    "report_id": "SYNTH_0001",
+    "text": "Overhead water tank in Ward 4 has been overflowing continuously for 3 days. Clean drinking water flooding the road and entering houses.",
+    "category": "Water Supply",
+    "severity": "High",
+    "signals": [
+      "overflowing continuously",
+      "3 days",
+      "entering houses"
+    ],
+    "location": "Main Road, Near Overbridge, Kadru, Ranchi (23.3629, 85.3211)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0002",
+    "text": "Main water supply pipeline cracked near Morabadi ground. Water gushing out at high pressure for past 12 hours.",
+    "category": "Water Supply",
+    "severity": "High",
+    "signals": [
+      "pipeline cracked",
+      "gushing out",
+      "past 12 hours"
+    ],
+    "location": "Ward 4, Near Water Tank, Morabadi, Ranchi (23.3850, 85.3340)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0003",
+    "text": "No tap water supply in Sector 3 for the last 5 days. Handpumps are also dry. Residents are facing severe crisis.",
+    "category": "Water Supply",
+    "severity": "Critical",
+    "signals": [
+      "no tap water",
+      "last 5 days",
+      "severe crisis",
+      "handpumps dry"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0004",
+    "text": "Tap water coming from municipal supply is completely muddy and smells like sewage. Children falling sick with stomach ache.",
+    "category": "Water Supply",
+    "severity": "Critical",
+    "signals": [
+      "muddy water",
+      "smells like sewage",
+      "children falling sick"
+    ],
+    "location": "Bank More, Near Shramik Chowk, Dhanbad (23.7957, 86.4304)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0005",
+    "text": "Community borewell motor burned out 2 days ago in Doranda. Over 40 families unable to get drinking water.",
+    "category": "Water Supply",
+    "severity": "High",
+    "signals": [
+      "motor burned out",
+      "40 families",
+      "unable to get drinking water"
+    ],
+    "location": "Bank More, Near Shramik Chowk, Dhanbad (23.7957, 86.4304)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0006",
+    "text": "Sub-line water pipe leaking slowly on roadside near daily market. Clean water going into drain.",
+    "category": "Water Supply",
+    "severity": "Low",
+    "signals": [
+      "leaking slowly",
+      "roadside"
+    ],
+    "location": "Sector 4/F, Bokaro Steel City (23.6693, 86.1511)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0007",
+    "text": "Water tanker did not arrive in our mohalla this morning. Kindly send the scheduled municipal tanker.",
+    "category": "Water Supply",
+    "severity": "Medium",
+    "signals": [
+      "tanker did not arrive",
+      "scheduled"
+    ],
+    "location": "Main Road, Near Overbridge, Kadru, Ranchi (23.3629, 85.3211)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0008",
+    "text": "Paani ki pipeline toot gayi hai Chowk par, pichle 2 din se saara paani sadak par beh raha hai.",
+    "category": "Water Supply",
+    "severity": "High",
+    "signals": [
+      "pipeline toot gayi",
+      "2 din",
+      "paani sadak par beh raha"
+    ],
+    "location": "Giridih, Near Pachamba Road (24.1850, 86.3050)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0009",
+    "text": "Overhead tank valve is loose causing water overflow every afternoon when pump turns on.",
+    "category": "Water Supply",
+    "severity": "Medium",
+    "signals": [
+      "valve loose",
+      "overflow every afternoon"
+    ],
+    "location": "Main Road, Near Overbridge, Kadru, Ranchi (23.3629, 85.3211)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0010",
+    "text": "Drinking water pipeline contaminated with nearby drainage leakage. Dirty foul water in taps.",
+    "category": "Water Supply",
+    "severity": "Critical",
+    "signals": [
+      "contaminated",
+      "drainage leakage",
+      "dirty foul water"
+    ],
+    "location": "Doranda, Near High Court Old Campus, Ranchi (23.3420, 85.3280)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0011",
+    "text": "Public handpump handle broken near government primary school. Kids cannot drink water.",
+    "category": "Water Supply",
+    "severity": "Medium",
+    "signals": [
+      "handle broken",
+      "primary school",
+      "cannot drink water"
+    ],
+    "location": "Hazaribagh Town, Near Lake Road (23.9930, 85.3620)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0012",
+    "text": "Water supply pressure is extremely low on upper floors in Hindpiri area for past one week.",
+    "category": "Water Supply",
+    "severity": "Low",
+    "signals": [
+      "extremely low pressure",
+      "past one week"
+    ],
+    "location": "Ward 4, Near Water Tank, Morabadi, Ranchi (23.3850, 85.3340)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0013",
+    "text": "Water tank sensor failed in municipal colony, tank overflowing non-stop since midnight.",
+    "category": "Water Supply",
+    "severity": "High",
+    "signals": [
+      "sensor failed",
+      "overflowing non-stop",
+      "since midnight"
+    ],
+    "location": "Ward 4, Near Water Tank, Morabadi, Ranchi (23.3850, 85.3340)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0014",
+    "text": "Drinking water pipeline laid 2 months ago has ruptured under road weight. Fresh water wasted.",
+    "category": "Water Supply",
+    "severity": "Medium",
+    "signals": [
+      "ruptured",
+      "fresh water wasted"
+    ],
+    "location": "Main Road, Near Overbridge, Kadru, Ranchi (23.3629, 85.3211)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0015",
+    "text": "Severe water shortage in Ward 12. No supply for 4 days in this summer heat.",
+    "category": "Water Supply",
+    "severity": "Critical",
+    "signals": [
+      "severe water shortage",
+      "no supply for 4 days",
+      "summer heat"
+    ],
+    "location": "Bank More, Near Shramik Chowk, Dhanbad (23.7957, 86.4304)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0016",
+    "text": "High-tension 11kV electrical wire snapped and hanging low right in front of primary school gate. Massive spark witnessed!",
+    "category": "Electricity",
+    "severity": "Critical",
+    "signals": [
+      "11kV electrical wire snapped",
+      "hanging low",
+      "primary school",
+      "massive spark"
+    ],
+    "location": "Bank More, Near Shramik Chowk, Dhanbad (23.7957, 86.4304)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0017",
+    "text": "Distribution transformer sparking loudly and catching fire near Main Road market. Danger of blast!",
+    "category": "Electricity",
+    "severity": "Critical",
+    "signals": [
+      "sparking loudly",
+      "catching fire",
+      "danger of blast"
+    ],
+    "location": "Giridih, Near Pachamba Road (24.1850, 86.3050)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0018",
+    "text": "Unscheduled power outage in Bariatu for over 18 hours. Inverters drained, hospital patients struggling.",
+    "category": "Electricity",
+    "severity": "High",
+    "signals": [
+      "outage over 18 hours",
+      "hospital patients struggling"
+    ],
+    "location": "Doranda, Near High Court Old Campus, Ranchi (23.3420, 85.3280)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0019",
+    "text": "Wooden electric pole leaning dangerously at 45 degrees towards residential house after yesterday storm.",
+    "category": "Electricity",
+    "severity": "High",
+    "signals": [
+      "leaning dangerously",
+      "towards residential house"
+    ],
+    "location": "Ward 4, Near Water Tank, Morabadi, Ranchi (23.3850, 85.3340)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0020",
+    "text": "Street power junction box left open with live bare copper terminals exposed on pavement where children play.",
+    "category": "Electricity",
+    "severity": "Critical",
+    "signals": [
+      "live bare terminals exposed",
+      "children play"
+    ],
+    "location": "Giridih, Near Pachamba Road (24.1850, 86.3050)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0021",
+    "text": "Frequent voltage fluctuation in Sector 4 damaging home refrigerators and appliances.",
+    "category": "Electricity",
+    "severity": "Medium",
+    "signals": [
+      "frequent voltage fluctuation",
+      "damaging appliances"
+    ],
+    "location": "Bank More, Near Shramik Chowk, Dhanbad (23.7957, 86.4304)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0022",
+    "text": "Electric meter burnt with heavy smoke inside apartment staircase. Power cut off to building.",
+    "category": "Electricity",
+    "severity": "High",
+    "signals": [
+      "meter burnt",
+      "heavy smoke",
+      "staircase"
+    ],
+    "location": "Giridih, Near Pachamba Road (24.1850, 86.3050)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0023",
+    "text": "Street bijli ka wire toot kar sadak par gira hai, kabhi bhi current lag sakta hai kisi ko.",
+    "category": "Electricity",
+    "severity": "Critical",
+    "signals": [
+      "wire toot kar sadak par gira",
+      "current lag sakta hai"
+    ],
+    "location": "Hazaribagh Town, Near Lake Road (23.9930, 85.3620)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0024",
+    "text": "Phase failure in Colony B since morning. Single phase running, AC and water pumps not working.",
+    "category": "Electricity",
+    "severity": "Medium",
+    "signals": [
+      "phase failure",
+      "since morning",
+      "pumps not working"
+    ],
+    "location": "Bank More, Near Shramik Chowk, Dhanbad (23.7957, 86.4304)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0025",
+    "text": "Transformer oil leaking on the ground near tea stall. Loud humming noise coming continuously.",
+    "category": "Electricity",
+    "severity": "Medium",
+    "signals": [
+      "oil leaking",
+      "loud humming"
+    ],
+    "location": "Deoghar Town, Near Tower Chowk (24.4826, 86.6976)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0026",
+    "text": "Electric pole damaged after tractor collision. Wires entangled and touching tree branches.",
+    "category": "Electricity",
+    "severity": "High",
+    "signals": [
+      "wires entangled",
+      "touching tree branches"
+    ],
+    "location": "Doranda, Near High Court Old Campus, Ranchi (23.3420, 85.3280)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0027",
+    "text": "Power trip happening every 10 minutes in industrial area. Work completely disrupted.",
+    "category": "Electricity",
+    "severity": "Medium",
+    "signals": [
+      "power trip every 10 minutes",
+      "disrupted"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0028",
+    "text": "Overhead cable sagged too low, getting entangled with passing trucks.",
+    "category": "Electricity",
+    "severity": "High",
+    "signals": [
+      "overhead cable sagged",
+      "entangled with trucks"
+    ],
+    "location": "Ward 4, Near Water Tank, Morabadi, Ranchi (23.3850, 85.3340)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0029",
+    "text": "Frequent power trippings in night time since last 3 days in Ward 7.",
+    "category": "Electricity",
+    "severity": "Low",
+    "signals": [
+      "power trippings",
+      "last 3 days"
+    ],
+    "location": "Sector 4/F, Bokaro Steel City (23.6693, 86.1511)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0030",
+    "text": "Transformer blown with loud blast, entire village in darkness since yesterday evening.",
+    "category": "Electricity",
+    "severity": "High",
+    "signals": [
+      "blown with loud blast",
+      "entire village in darkness"
+    ],
+    "location": "Hazaribagh Town, Near Lake Road (23.9930, 85.3620)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0031",
+    "text": "Huge 4-feet wide pothole on highway bridge bypass. Multiple two-wheelers slipping and falling daily.",
+    "category": "Roads & Infrastructure",
+    "severity": "High",
+    "signals": [
+      "4-feet wide pothole",
+      "two-wheelers slipping",
+      "falling daily"
+    ],
+    "location": "Bariatu Road, Opposite RIMS Gate, Ranchi (23.3980, 85.3580)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0032",
+    "text": "Culvert collapsed after heavy rain on link road connecting village to town. Ambulance cannot pass!",
+    "category": "Roads & Infrastructure",
+    "severity": "Critical",
+    "signals": [
+      "culvert collapsed",
+      "ambulance cannot pass",
+      "road cut off"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0033",
+    "text": "Road digging done for gas pipeline left completely uncovered without barricades for 3 weeks.",
+    "category": "Roads & Infrastructure",
+    "severity": "Medium",
+    "signals": [
+      "left uncovered without barricades",
+      "3 weeks"
+    ],
+    "location": "Sector 4/F, Bokaro Steel City (23.6693, 86.1511)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0034",
+    "text": "Entire stretch of Main Street has craters and broken asphalt. Severe dust and back injuries to commuters.",
+    "category": "Roads & Infrastructure",
+    "severity": "Medium",
+    "signals": [
+      "craters and broken asphalt",
+      "back injuries"
+    ],
+    "location": "Bank More, Near Shramik Chowk, Dhanbad (23.7957, 86.4304)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0035",
+    "text": "Waterlogging up to knee level on station road due to poor slope. Traffic halted for hours.",
+    "category": "Roads & Infrastructure",
+    "severity": "High",
+    "signals": [
+      "waterlogging up to knee level",
+      "traffic halted for hours"
+    ],
+    "location": "Bariatu Road, Opposite RIMS Gate, Ranchi (23.3980, 85.3580)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0036",
+    "text": "Sadak par bahut bada gaddha ho gaya hai, raat me bike wale gir rahe hain.",
+    "category": "Roads & Infrastructure",
+    "severity": "High",
+    "signals": [
+      "bahut bada gaddha",
+      "bike wale gir rahe hain"
+    ],
+    "location": "Main Road, Near Overbridge, Kadru, Ranchi (23.3629, 85.3211)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0037",
+    "text": "Speed breaker built without white markings or warning signs causing sudden brake accidents.",
+    "category": "Roads & Infrastructure",
+    "severity": "Medium",
+    "signals": [
+      "speed breaker without markings",
+      "accidents"
+    ],
+    "location": "Main Road, Near Overbridge, Kadru, Ranchi (23.3629, 85.3211)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0038",
+    "text": "Footpath tiles broken and open construction debris dumped on walking pathway.",
+    "category": "Roads & Infrastructure",
+    "severity": "Low",
+    "signals": [
+      "footpath tiles broken",
+      "debris dumped"
+    ],
+    "location": "Hazaribagh Town, Near Lake Road (23.9930, 85.3620)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0039",
+    "text": "Bridge expansion joint separated with 6-inch gap, vehicles experiencing severe tire shocks.",
+    "category": "Roads & Infrastructure",
+    "severity": "High",
+    "signals": [
+      "expansion joint separated",
+      "severe tire shocks"
+    ],
+    "location": "Main Road, Near Overbridge, Kadru, Ranchi (23.3629, 85.3211)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0040",
+    "text": "Freshly tarred road started peeling off within 2 days after first shower. Substandard work.",
+    "category": "Roads & Infrastructure",
+    "severity": "Low",
+    "signals": [
+      "peeling off within 2 days",
+      "substandard work"
+    ],
+    "location": "Bariatu Road, Opposite RIMS Gate, Ranchi (23.3980, 85.3580)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0041",
+    "text": "Large sinkhole formed in middle of busy intersection near bus stand.",
+    "category": "Roads & Infrastructure",
+    "severity": "Critical",
+    "signals": [
+      "large sinkhole",
+      "busy intersection"
+    ],
+    "location": "Bariatu Road, Opposite RIMS Gate, Ranchi (23.3980, 85.3580)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0042",
+    "text": "Dividers broken and iron rebar sticking out into road lane.",
+    "category": "Roads & Infrastructure",
+    "severity": "High",
+    "signals": [
+      "iron rebar sticking out",
+      "into road lane"
+    ],
+    "location": "Doranda, Near High Court Old Campus, Ranchi (23.3420, 85.3280)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0043",
+    "text": "Mud and gravel spread across curvy road causing bikes to skid.",
+    "category": "Roads & Infrastructure",
+    "severity": "Medium",
+    "signals": [
+      "mud and gravel",
+      "bikes to skid"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0044",
+    "text": "Unfinished flyover ramp barricade knocked down, risk of vehicles driving into gap.",
+    "category": "Roads & Infrastructure",
+    "severity": "Critical",
+    "signals": [
+      "risk of vehicles driving into gap"
+    ],
+    "location": "Ward 4, Near Water Tank, Morabadi, Ranchi (23.3850, 85.3340)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0045",
+    "text": "Minor potholes near colony entrance need patch repair before monsoon.",
+    "category": "Roads & Infrastructure",
+    "severity": "Low",
+    "signals": [
+      "minor potholes",
+      "patch repair"
+    ],
+    "location": "Deoghar Town, Near Tower Chowk (24.4826, 86.6976)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0046",
+    "text": "Massive illegal garbage dump accumulating opposite government hospital. Rotting food and medical waste stinking horribly.",
+    "category": "Sanitation & Waste",
+    "severity": "Critical",
+    "signals": [
+      "opposite hospital",
+      "medical waste",
+      "rotting food"
+    ],
+    "location": "Giridih, Near Pachamba Road (24.1850, 86.3050)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0047",
+    "text": "Open sewage drain blocked and overflowing black contaminated sludge onto residential walkway.",
+    "category": "Sanitation & Waste",
+    "severity": "High",
+    "signals": [
+      "overflowing black sludge",
+      "residential walkway"
+    ],
+    "location": "Main Road, Near Overbridge, Kadru, Ranchi (23.3629, 85.3211)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0048",
+    "text": "Municipal koodadan overflowing for past 10 days. Stray cattle and dogs scattering plastic bags.",
+    "category": "Sanitation & Waste",
+    "severity": "Medium",
+    "signals": [
+      "overflowing for past 10 days",
+      "dogs scattering waste"
+    ],
+    "location": "Hazaribagh Town, Near Lake Road (23.9930, 85.3620)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0049",
+    "text": "Commercial market meat waste and chicken remains dumped directly into open nallah, foul unbearable odor.",
+    "category": "Sanitation & Waste",
+    "severity": "High",
+    "signals": [
+      "meat waste dumped in nallah",
+      "unbearable odor"
+    ],
+    "location": "Main Road, Near Overbridge, Kadru, Ranchi (23.3629, 85.3211)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0050",
+    "text": "Drain cover broken, sewage water backing up into ground floor houses during rain.",
+    "category": "Sanitation & Waste",
+    "severity": "High",
+    "signals": [
+      "sewage backing up into houses"
+    ],
+    "location": "Giridih, Near Pachamba Road (24.1850, 86.3050)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0051",
+    "text": "Kachra gaadi has not visited Ward 9 for the last 6 days. Household garbage piled outside gates.",
+    "category": "Sanitation & Waste",
+    "severity": "Medium",
+    "signals": [
+      "kachra gaadi not visited",
+      "last 6 days"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0052",
+    "text": "Septic tank overflow running into street gutter and creating foul stench across neighborhood.",
+    "category": "Sanitation & Waste",
+    "severity": "High",
+    "signals": [
+      "septic tank overflow",
+      "foul stench"
+    ],
+    "location": "Doranda, Near High Court Old Campus, Ranchi (23.3420, 85.3280)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0053",
+    "text": "Clogged storm drain full of plastic bottles and silt. Water stagnant for weeks.",
+    "category": "Sanitation & Waste",
+    "severity": "Medium",
+    "signals": [
+      "clogged storm drain",
+      "stagnant for weeks"
+    ],
+    "location": "Bariatu Road, Opposite RIMS Gate, Ranchi (23.3980, 85.3580)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0054",
+    "text": "Gali ki naali jam ho gayi hai, ganda paani ghar ke samne jama hai.",
+    "category": "Sanitation & Waste",
+    "severity": "Medium",
+    "signals": [
+      "naali jam",
+      "ganda paani jama hai"
+    ],
+    "location": "Doranda, Near High Court Old Campus, Ranchi (23.3420, 85.3280)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0055",
+    "text": "Open dumping yard burning plastic waste at night causing toxic smoke and breathing difficulty.",
+    "category": "Sanitation & Waste",
+    "severity": "Critical",
+    "signals": [
+      "burning plastic waste",
+      "toxic smoke",
+      "breathing difficulty"
+    ],
+    "location": "Bank More, Near Shramik Chowk, Dhanbad (23.7957, 86.4304)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0056",
+    "text": "Public community toilet in slum area blocked with no running water for cleaning.",
+    "category": "Sanitation & Waste",
+    "severity": "High",
+    "signals": [
+      "toilet blocked",
+      "no running water"
+    ],
+    "location": "Main Road, Near Overbridge, Kadru, Ranchi (23.3629, 85.3211)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0057",
+    "text": "Small pile of dry leaves and garden waste dumped on corner lot.",
+    "category": "Sanitation & Waste",
+    "severity": "Low",
+    "signals": [
+      "small pile",
+      "dry leaves"
+    ],
+    "location": "Ward 4, Near Water Tank, Morabadi, Ranchi (23.3850, 85.3340)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0058",
+    "text": "Bio-waste dumped behind nursing home without proper incineration.",
+    "category": "Sanitation & Waste",
+    "severity": "Critical",
+    "signals": [
+      "bio-waste dumped",
+      "behind nursing home"
+    ],
+    "location": "Bank More, Near Shramik Chowk, Dhanbad (23.7957, 86.4304)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0059",
+    "text": "Dustbin wheels broken and tipped over, garbage lying on road.",
+    "category": "Sanitation & Waste",
+    "severity": "Low",
+    "signals": [
+      "dustbin broken",
+      "lying on road"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0060",
+    "text": "Construction silt dumped into municipal drainage canal causing blockage.",
+    "category": "Sanitation & Waste",
+    "severity": "Medium",
+    "signals": [
+      "silt dumped into drainage canal"
+    ],
+    "location": "Main Road, Near Overbridge, Kadru, Ranchi (23.3629, 85.3211)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0061",
+    "text": "Stagnant green water pool in abandoned plot breeding swarm of mosquitoes. 12 confirmed dengue cases in colony.",
+    "category": "Public Health",
+    "severity": "Critical",
+    "signals": [
+      "swarm of mosquitoes",
+      "12 confirmed dengue cases"
+    ],
+    "location": "Bank More, Near Shramik Chowk, Dhanbad (23.7957, 86.4304)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0062",
+    "text": "Primary Health Center (PHC) locked during working hours, no doctor or basic anti-venom available.",
+    "category": "Public Health",
+    "severity": "Critical",
+    "signals": [
+      "locked during working hours",
+      "no doctor",
+      "no anti-venom"
+    ],
+    "location": "Main Road, Near Overbridge, Kadru, Ranchi (23.3629, 85.3211)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0063",
+    "text": "Cow carcass lying on roadside near vegetable mandi for 2 days, flies everywhere, health hazard.",
+    "category": "Public Health",
+    "severity": "High",
+    "signals": [
+      "carcass lying for 2 days",
+      "flies everywhere",
+      "health hazard"
+    ],
+    "location": "Hazaribagh Town, Near Lake Road (23.9930, 85.3620)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0064",
+    "text": "Children showing symptoms of skin infection and rashes after using municipal park with untreated standing water.",
+    "category": "Public Health",
+    "severity": "High",
+    "signals": [
+      "children skin infection",
+      "untreated standing water"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0065",
+    "text": "No fogging or mosquito larvicide spraying done despite monsoon outbreak in Ward 15.",
+    "category": "Public Health",
+    "severity": "Medium",
+    "signals": [
+      "no fogging done",
+      "monsoon outbreak"
+    ],
+    "location": "Deoghar Town, Near Tower Chowk (24.4826, 86.6976)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0066",
+    "text": "Swasthya kendra me dawa bilkul khatam hai, bukhar ke mareez laut rahe hain.",
+    "category": "Public Health",
+    "severity": "High",
+    "signals": [
+      "dawa khatam",
+      "swasthya kendra",
+      "mareez laut rahe"
+    ],
+    "location": "Bariatu Road, Opposite RIMS Gate, Ranchi (23.3980, 85.3580)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0067",
+    "text": "Dog bite victim went to government dispensary, anti-rabies injection out of stock.",
+    "category": "Public Health",
+    "severity": "Critical",
+    "signals": [
+      "anti-rabies out of stock",
+      "dog bite victim"
+    ],
+    "location": "Sector 4/F, Bokaro Steel City (23.6693, 86.1511)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0068",
+    "text": "Chemical fumes coming from illegal battery workshop next to residential houses, stinging eyes.",
+    "category": "Public Health",
+    "severity": "High",
+    "signals": [
+      "chemical fumes",
+      "stinging eyes",
+      "illegal workshop"
+    ],
+    "location": "Bariatu Road, Opposite RIMS Gate, Ranchi (23.3980, 85.3580)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0069",
+    "text": "Dead pigs in drain creating severe bacterial contamination risk.",
+    "category": "Public Health",
+    "severity": "High",
+    "signals": [
+      "dead pigs in drain",
+      "contamination risk"
+    ],
+    "location": "Bariatu Road, Opposite RIMS Gate, Ranchi (23.3980, 85.3580)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0070",
+    "text": "Stagnant water near school canteen ground attracting flies and mosquitoes.",
+    "category": "Public Health",
+    "severity": "Medium",
+    "signals": [
+      "stagnant water near school",
+      "attracting flies"
+    ],
+    "location": "Bank More, Near Shramik Chowk, Dhanbad (23.7957, 86.4304)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0071",
+    "text": "Suspected cholera cases reported after drinking contaminated well water.",
+    "category": "Public Health",
+    "severity": "Critical",
+    "signals": [
+      "suspected cholera",
+      "contaminated well water"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0072",
+    "text": "Lack of hand sanitizer and hygiene supplies in rural health sub-center.",
+    "category": "Public Health",
+    "severity": "Low",
+    "signals": [
+      "lack of hygiene supplies"
+    ],
+    "location": "Main Road, Near Overbridge, Kadru, Ranchi (23.3629, 85.3211)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0073",
+    "text": "Open defecation area near water source spreading gastrointestinal diseases.",
+    "category": "Public Health",
+    "severity": "High",
+    "signals": [
+      "open defecation",
+      "spreading gastrointestinal diseases"
+    ],
+    "location": "Doranda, Near High Court Old Campus, Ranchi (23.3420, 85.3280)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0074",
+    "text": "Foul chemical runoff from small dyeing unit entering soil.",
+    "category": "Public Health",
+    "severity": "Medium",
+    "signals": [
+      "chemical runoff",
+      "entering soil"
+    ],
+    "location": "Sector 4/F, Bokaro Steel City (23.6693, 86.1511)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0075",
+    "text": "Municipal clinic lacks emergency thermometer and BP apparatus.",
+    "category": "Public Health",
+    "severity": "Low",
+    "signals": [
+      "lacks thermometer and BP apparatus"
+    ],
+    "location": "Giridih, Near Pachamba Road (24.1850, 86.3050)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0076",
+    "text": "Government Primary School classroom roof slab cracked and chunks of concrete falling onto student desks!",
+    "category": "Education Infrastructure",
+    "severity": "Critical",
+    "signals": [
+      "roof slab cracked",
+      "concrete falling",
+      "student desks"
+    ],
+    "location": "Bank More, Near Shramik Chowk, Dhanbad (23.7957, 86.4304)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0077",
+    "text": "Boundary wall of girls high school collapsed, allowing stray animals and unauthorized intruders inside.",
+    "category": "Education Infrastructure",
+    "severity": "High",
+    "signals": [
+      "boundary wall collapsed",
+      "girls high school",
+      "unauthorized intruders"
+    ],
+    "location": "Sector 4/F, Bokaro Steel City (23.6693, 86.1511)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0078",
+    "text": "School toilet for girl students has no running water, broken doors, and no latch. Girls forced to go home.",
+    "category": "Education Infrastructure",
+    "severity": "High",
+    "signals": [
+      "school toilet no water",
+      "broken doors",
+      "girls forced to go home"
+    ],
+    "location": "Deoghar Town, Near Tower Chowk (24.4826, 86.6976)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0079",
+    "text": "Rainwater leaking through classroom ceiling onto books and electrical switchboard during class hours.",
+    "category": "Education Infrastructure",
+    "severity": "High",
+    "signals": [
+      "rainwater leaking through ceiling",
+      "switchboard during class"
+    ],
+    "location": "Hazaribagh Town, Near Lake Road (23.9930, 85.3620)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0080",
+    "text": "Primary school has no functional drinking water filter. Students drinking untreated borewell water.",
+    "category": "Education Infrastructure",
+    "severity": "High",
+    "signals": [
+      "no functional drinking water filter",
+      "untreated water"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0081",
+    "text": "School building plaster peeling off and window glass broken in 3 classrooms.",
+    "category": "Education Infrastructure",
+    "severity": "Medium",
+    "signals": [
+      "plaster peeling off",
+      "window glass broken"
+    ],
+    "location": "Giridih, Near Pachamba Road (24.1850, 86.3050)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0082",
+    "text": "School me bachhon ke baithne ke liye bench desk toota hua hai, zameen par baithna pad raha hai.",
+    "category": "Education Infrastructure",
+    "severity": "Medium",
+    "signals": [
+      "bench desk toota",
+      "zameen par baithna pad raha"
+    ],
+    "location": "Bank More, Near Shramik Chowk, Dhanbad (23.7957, 86.4304)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0083",
+    "text": "Midday meal kitchen shed has asbestos roof broken with soot accumulation.",
+    "category": "Education Infrastructure",
+    "severity": "Medium",
+    "signals": [
+      "kitchen shed broken",
+      "soot accumulation"
+    ],
+    "location": "Bariatu Road, Opposite RIMS Gate, Ranchi (23.3980, 85.3580)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0084",
+    "text": "Kindergarten anganwadi center has damp walls with fungal mold all over.",
+    "category": "Education Infrastructure",
+    "severity": "Medium",
+    "signals": [
+      "damp walls",
+      "fungal mold"
+    ],
+    "location": "Ward 4, Near Water Tank, Morabadi, Ranchi (23.3850, 85.3340)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0085",
+    "text": "School playground inundated with 1 foot mud and dangerous iron scraps.",
+    "category": "Education Infrastructure",
+    "severity": "Medium",
+    "signals": [
+      "inundated with mud",
+      "dangerous iron scraps"
+    ],
+    "location": "Bank More, Near Shramik Chowk, Dhanbad (23.7957, 86.4304)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0086",
+    "text": "School boundary fence missing allowing highway traffic right next to playground.",
+    "category": "Education Infrastructure",
+    "severity": "High",
+    "signals": [
+      "boundary fence missing",
+      "highway traffic next to playground"
+    ],
+    "location": "Ward 4, Near Water Tank, Morabadi, Ranchi (23.3850, 85.3340)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0087",
+    "text": "Blackboards faded and unreadable in all primary classes.",
+    "category": "Education Infrastructure",
+    "severity": "Low",
+    "signals": [
+      "blackboards faded"
+    ],
+    "location": "Bariatu Road, Opposite RIMS Gate, Ranchi (23.3980, 85.3580)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0088",
+    "text": "Classroom ceiling fan hanging loosely by single wire over children.",
+    "category": "Education Infrastructure",
+    "severity": "Critical",
+    "signals": [
+      "fan hanging loosely by single wire",
+      "over children"
+    ],
+    "location": "Hazaribagh Town, Near Lake Road (23.9930, 85.3620)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0089",
+    "text": "School library room floor tiles cracked and uneven.",
+    "category": "Education Infrastructure",
+    "severity": "Low",
+    "signals": [
+      "floor tiles cracked"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0090",
+    "text": "No electricity in government secondary school during summer exam week.",
+    "category": "Education Infrastructure",
+    "severity": "High",
+    "signals": [
+      "no electricity",
+      "summer exam week"
+    ],
+    "location": "Main Road, Near Overbridge, Kadru, Ranchi (23.3629, 85.3211)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0091",
+    "text": "All 14 streetlights on bypass road dead for 3 weeks. Complete pitch darkness leading to snatching and accidents.",
+    "category": "Public Safety",
+    "severity": "High",
+    "signals": [
+      "14 streetlights dead",
+      "3 weeks",
+      "pitch darkness",
+      "snatching"
+    ],
+    "location": "Bank More, Near Shramik Chowk, Dhanbad (23.7957, 86.4304)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0092",
+    "text": "Deep open uncovered storm manhole on unlit pedestrian footpath. Lethal death trap for pedestrians at night!",
+    "category": "Public Safety",
+    "severity": "Critical",
+    "signals": [
+      "open uncovered manhole",
+      "unlit footpath",
+      "lethal death trap"
+    ],
+    "location": "Doranda, Near High Court Old Campus, Ranchi (23.3420, 85.3280)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0093",
+    "text": "Pack of 8 aggressive stray dogs attacking cyclists and school children every evening near park.",
+    "category": "Public Safety",
+    "severity": "High",
+    "signals": [
+      "aggressive stray dogs",
+      "attacking cyclists",
+      "school children"
+    ],
+    "location": "Bariatu Road, Opposite RIMS Gate, Ranchi (23.3980, 85.3580)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0094",
+    "text": "Dark deserted alley under railway overbridge being used for illicit drug activities and harassment of women.",
+    "category": "Public Safety",
+    "severity": "High",
+    "signals": [
+      "illicit drug activities",
+      "harassment of women",
+      "dark alley"
+    ],
+    "location": "Bank More, Near Shramik Chowk, Dhanbad (23.7957, 86.4304)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0095",
+    "text": "Manhole cover stolen on main market crossing, people putting tree branches as makeshift warning.",
+    "category": "Public Safety",
+    "severity": "High",
+    "signals": [
+      "manhole cover stolen",
+      "tree branches as makeshift warning"
+    ],
+    "location": "Deoghar Town, Near Tower Chowk (24.4826, 86.6976)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0096",
+    "text": "Roadside tree trunk completely rotten and swinging in wind, could crush passing cars at any moment.",
+    "category": "Public Safety",
+    "severity": "Critical",
+    "signals": [
+      "tree trunk rotten",
+      "could crush passing cars"
+    ],
+    "location": "Hazaribagh Town, Near Lake Road (23.9930, 85.3620)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0097",
+    "text": "Street light ka pole kharab hai, pichle ek mahine se andhera rehta hai colony me.",
+    "category": "Public Safety",
+    "severity": "Medium",
+    "signals": [
+      "pole kharab",
+      "ek mahine se andhera"
+    ],
+    "location": "Deoghar Town, Near Tower Chowk (24.4826, 86.6976)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0098",
+    "text": "Unlit sharp curve on valley road missing warning reflectors and guard rails.",
+    "category": "Public Safety",
+    "severity": "High",
+    "signals": [
+      "missing warning reflectors",
+      "guard rails",
+      "sharp curve"
+    ],
+    "location": "Sector 4/F, Bokaro Steel City (23.6693, 86.1511)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0099",
+    "text": "Biting stray dogs around bus stop creating panic among morning walkers.",
+    "category": "Public Safety",
+    "severity": "Medium",
+    "signals": [
+      "biting stray dogs",
+      "panic among walkers"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0100",
+    "text": "Footpath railing missing over 20-foot drop into river canal.",
+    "category": "Public Safety",
+    "severity": "Critical",
+    "signals": [
+      "railing missing",
+      "20-foot drop"
+    ],
+    "location": "Sector 4/F, Bokaro Steel City (23.6693, 86.1511)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0101",
+    "text": "Streetlight bulb blinking intermittently near house number 45.",
+    "category": "Public Safety",
+    "severity": "Low",
+    "signals": [
+      "bulb blinking intermittently"
+    ],
+    "location": "Bank More, Near Shramik Chowk, Dhanbad (23.7957, 86.4304)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0102",
+    "text": "Damaged high security gate of municipal park left open at night.",
+    "category": "Public Safety",
+    "severity": "Low",
+    "signals": [
+      "security gate left open"
+    ],
+    "location": "Giridih, Near Pachamba Road (24.1850, 86.3050)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0103",
+    "text": "Broken glass bottles deliberately smashed across children playground slide area.",
+    "category": "Public Safety",
+    "severity": "High",
+    "signals": [
+      "broken glass bottles",
+      "children playground"
+    ],
+    "location": "Giridih, Near Pachamba Road (24.1850, 86.3050)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0104",
+    "text": "Construction company left deep 10-foot trench without lighting or reflective tape on roadside.",
+    "category": "Public Safety",
+    "severity": "Critical",
+    "signals": [
+      "10-foot trench",
+      "without lighting or reflective tape"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0105",
+    "text": "Single street light faulty on dead-end residential lane.",
+    "category": "Public Safety",
+    "severity": "Low",
+    "signals": [
+      "single street light faulty"
+    ],
+    "location": "Doranda, Near High Court Old Campus, Ranchi (23.3420, 85.3280)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0106",
+    "text": "Illegal commercial loudspeaker blaring religious / party songs past midnight in silence zone near hospital.",
+    "category": "Other",
+    "severity": "Medium",
+    "signals": [
+      "loudspeaker past midnight",
+      "silence zone near hospital"
+    ],
+    "location": "Hazaribagh Town, Near Lake Road (23.9930, 85.3620)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0107",
+    "text": "Encroachment of public footpath by unauthorized vendor permanent tin sheds.",
+    "category": "Other",
+    "severity": "Medium",
+    "signals": [
+      "encroachment of public footpath",
+      "unauthorized tin sheds"
+    ],
+    "location": "Doranda, Near High Court Old Campus, Ranchi (23.3420, 85.3280)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0108",
+    "text": "Huge illegal political advertising hoarding blocking traffic signal visibility at main square.",
+    "category": "Other",
+    "severity": "Medium",
+    "signals": [
+      "illegal hoarding",
+      "blocking traffic signal"
+    ],
+    "location": "Hazaribagh Town, Near Lake Road (23.9930, 85.3620)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0109",
+    "text": "Municipal birth certificate counter clerk refusing to process applications without bribe.",
+    "category": "Other",
+    "severity": "High",
+    "signals": [
+      "refusing to process applications",
+      "administrative"
+    ],
+    "location": "Bariatu Road, Opposite RIMS Gate, Ranchi (23.3980, 85.3580)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0110",
+    "text": "Commercial diesel generator running continuously on pavement releasing thick black smoke.",
+    "category": "Other",
+    "severity": "Medium",
+    "signals": [
+      "generator on pavement",
+      "thick black smoke"
+    ],
+    "location": "Bank More, Near Shramik Chowk, Dhanbad (23.7957, 86.4304)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0111",
+    "text": "Illegal parking of commercial tourist buses blocking colony main entrance gate.",
+    "category": "Other",
+    "severity": "Low",
+    "signals": [
+      "illegal parking",
+      "blocking colony entrance"
+    ],
+    "location": "Sector 4/F, Bokaro Steel City (23.6693, 86.1511)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0112",
+    "text": "Loud industrial machinery operating in residential basement without license.",
+    "category": "Other",
+    "severity": "Medium",
+    "signals": [
+      "industrial machinery in residential basement",
+      "without license"
+    ],
+    "location": "Giridih, Near Pachamba Road (24.1850, 86.3050)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0113",
+    "text": "Park public benches damaged by miscreants.",
+    "category": "Other",
+    "severity": "Low",
+    "signals": [
+      "benches damaged"
+    ],
+    "location": "Deoghar Town, Near Tower Chowk (24.4826, 86.6976)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0114",
+    "text": "Street name board twisted and unreadable.",
+    "category": "Other",
+    "severity": "Low",
+    "signals": [
+      "street name board twisted"
+    ],
+    "location": "Main Road, Near Overbridge, Kadru, Ranchi (23.3629, 85.3211)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0115",
+    "text": "Illegal sand mining trucks driving through village small street at night.",
+    "category": "Other",
+    "severity": "High",
+    "signals": [
+      "illegal sand mining trucks",
+      "at night"
+    ],
+    "location": "Ward 4, Near Water Tank, Morabadi, Ranchi (23.3850, 85.3340)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0116",
+    "text": "Stray cattle blocking colony internal road.",
+    "category": "Other",
+    "severity": "Low",
+    "signals": [
+      "stray cattle blocking"
+    ],
+    "location": "Main Road, Near Overbridge, Kadru, Ranchi (23.3629, 85.3211)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0117",
+    "text": "Request to prune overgrown tree branches touching private balcony.",
+    "category": "Other",
+    "severity": "Low",
+    "signals": [
+      "overgrown tree branches"
+    ],
+    "location": "Sector 4/F, Bokaro Steel City (23.6693, 86.1511)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0118",
+    "text": "Abandoned rusted car chassis parked on street for 6 months taking up space.",
+    "category": "Other",
+    "severity": "Low",
+    "signals": [
+      "abandoned rusted car",
+      "6 months"
+    ],
+    "location": "Sector 4/F, Bokaro Steel City (23.6693, 86.1511)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0119",
+    "text": "Public notice board glass smashed.",
+    "category": "Other",
+    "severity": "Low",
+    "signals": [
+      "notice board smashed"
+    ],
+    "location": "Hazaribagh Town, Near Lake Road (23.9930, 85.3620)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0120",
+    "text": "Municipal office delayed issuance of trade license for 4 months.",
+    "category": "Other",
+    "severity": "Low",
+    "signals": [
+      "delayed issuance",
+      "4 months"
+    ],
+    "location": "Doranda, Near High Court Old Campus, Ranchi (23.3420, 85.3280)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0121",
+    "text": "Electric meter burnt with heavy smoke inside apartment staircase. Power cut off to building.  Situation is deteriorating rapidly since this morning.",
+    "category": "Electricity",
+    "severity": "High",
+    "signals": [
+      "meter burnt",
+      "heavy smoke",
+      "staircase"
+    ],
+    "location": "Doranda, Near High Court Old Campus, Ranchi (23.3420, 85.3280)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0122",
+    "text": "Street name board twisted and unreadable.  Multiple complaints registered earlier with ward councillor but no action taken.",
+    "category": "Other",
+    "severity": "Low",
+    "signals": [
+      "street name board twisted"
+    ],
+    "location": "Giridih, Near Pachamba Road (24.1850, 86.3050)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0123",
+    "text": "Public handpump handle broken near government primary school. Kids cannot drink water.  Urgent attention needed immediately!",
+    "category": "Water Supply",
+    "severity": "High",
+    "signals": [
+      "handle broken",
+      "primary school",
+      "cannot drink water"
+    ],
+    "location": "Giridih, Near Pachamba Road (24.1850, 86.3050)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0124",
+    "text": "Open defecation area near water source spreading gastrointestinal diseases.  Multiple complaints registered earlier with ward councillor but no action taken.",
+    "category": "Public Health",
+    "severity": "High",
+    "signals": [
+      "open defecation",
+      "spreading gastrointestinal diseases"
+    ],
+    "location": "Main Road, Near Overbridge, Kadru, Ranchi (23.3629, 85.3211)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0125",
+    "text": "Dog bite victim went to government dispensary, anti-rabies injection out of stock.  Please look into this at the earliest as public is suffering.",
+    "category": "Public Health",
+    "severity": "Critical",
+    "signals": [
+      "anti-rabies out of stock",
+      "dog bite victim"
+    ],
+    "location": "Deoghar Town, Near Tower Chowk (24.4826, 86.6976)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0126",
+    "text": "Water supply pressure is extremely low on upper floors in Hindpiri area for past one week.  Multiple complaints registered earlier with ward councillor but no action taken.",
+    "category": "Water Supply",
+    "severity": "Low",
+    "signals": [
+      "extremely low pressure",
+      "past one week"
+    ],
+    "location": "Giridih, Near Pachamba Road (24.1850, 86.3050)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0127",
+    "text": "Bridge expansion joint separated with 6-inch gap, vehicles experiencing severe tire shocks.  Urgent attention needed immediately!",
+    "category": "Roads & Infrastructure",
+    "severity": "High",
+    "signals": [
+      "expansion joint separated",
+      "severe tire shocks"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0128",
+    "text": "Municipal koodadan overflowing for past 10 days. Stray cattle and dogs scattering plastic bags.  Multiple complaints registered earlier with ward councillor but no action taken.",
+    "category": "Sanitation & Waste",
+    "severity": "Medium",
+    "signals": [
+      "overflowing for past 10 days",
+      "dogs scattering waste"
+    ],
+    "location": "Sector 4/F, Bokaro Steel City (23.6693, 86.1511)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0129",
+    "text": "Drinking water pipeline contaminated with nearby drainage leakage. Dirty foul water in taps.  Multiple complaints registered earlier with ward councillor but no action taken.",
+    "category": "Water Supply",
+    "severity": "Critical",
+    "signals": [
+      "contaminated",
+      "drainage leakage",
+      "dirty foul water"
+    ],
+    "location": "Deoghar Town, Near Tower Chowk (24.4826, 86.6976)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0130",
+    "text": "Main water supply pipeline cracked near Morabadi ground. Water gushing out at high pressure for past 12 hours.  Multiple complaints registered earlier with ward councillor but no action taken.",
+    "category": "Water Supply",
+    "severity": "High",
+    "signals": [
+      "pipeline cracked",
+      "gushing out",
+      "past 12 hours"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0131",
+    "text": "Massive illegal garbage dump accumulating opposite government hospital. Rotting food and medical waste stinking horribly.  Please look into this at the earliest as public is suffering.",
+    "category": "Sanitation & Waste",
+    "severity": "Critical",
+    "signals": [
+      "opposite hospital",
+      "medical waste",
+      "rotting food"
+    ],
+    "location": "Doranda, Near High Court Old Campus, Ranchi (23.3420, 85.3280)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0132",
+    "text": "Distribution transformer sparking loudly and catching fire near Main Road market. Danger of blast!  Situation is deteriorating rapidly since this morning.",
+    "category": "Electricity",
+    "severity": "Critical",
+    "signals": [
+      "sparking loudly",
+      "catching fire",
+      "danger of blast"
+    ],
+    "location": "Main Road, Near Overbridge, Kadru, Ranchi (23.3629, 85.3211)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0133",
+    "text": "Road digging done for gas pipeline left completely uncovered without barricades for 3 weeks.  Situation is deteriorating rapidly since this morning.",
+    "category": "Roads & Infrastructure",
+    "severity": "High",
+    "signals": [
+      "left uncovered without barricades",
+      "3 weeks"
+    ],
+    "location": "Giridih, Near Pachamba Road (24.1850, 86.3050)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0134",
+    "text": "Waterlogging up to knee level on station road due to poor slope. Traffic halted for hours.  Small issue, kindly repair whenever staff is available in this sector.",
+    "category": "Roads & Infrastructure",
+    "severity": "High",
+    "signals": [
+      "waterlogging up to knee level",
+      "traffic halted for hours"
+    ],
+    "location": "Doranda, Near High Court Old Campus, Ranchi (23.3420, 85.3280)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0135",
+    "text": "Dark deserted alley under railway overbridge being used for illicit drug activities and harassment of women.  Small issue, kindly repair whenever staff is available in this sector.",
+    "category": "Public Safety",
+    "severity": "High",
+    "signals": [
+      "illicit drug activities",
+      "harassment of women",
+      "dark alley"
+    ],
+    "location": "Bank More, Near Shramik Chowk, Dhanbad (23.7957, 86.4304)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0136",
+    "text": "Dog bite victim went to government dispensary, anti-rabies injection out of stock.  Multiple complaints registered earlier with ward councillor but no action taken.",
+    "category": "Public Health",
+    "severity": "Critical",
+    "signals": [
+      "anti-rabies out of stock",
+      "dog bite victim"
+    ],
+    "location": "Deoghar Town, Near Tower Chowk (24.4826, 86.6976)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0137",
+    "text": "Encroachment of public footpath by unauthorized vendor permanent tin sheds.  Please look into this at the earliest as public is suffering.",
+    "category": "Other",
+    "severity": "Medium",
+    "signals": [
+      "encroachment of public footpath",
+      "unauthorized tin sheds"
+    ],
+    "location": "Bank More, Near Shramik Chowk, Dhanbad (23.7957, 86.4304)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0138",
+    "text": "Frequent voltage fluctuation in Sector 4 damaging home refrigerators and appliances.  Urgent attention needed immediately!",
+    "category": "Electricity",
+    "severity": "High",
+    "signals": [
+      "frequent voltage fluctuation",
+      "damaging appliances"
+    ],
+    "location": "Doranda, Near High Court Old Campus, Ranchi (23.3420, 85.3280)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0139",
+    "text": "Open dumping yard burning plastic waste at night causing toxic smoke and breathing difficulty.  Please look into this at the earliest as public is suffering.",
+    "category": "Sanitation & Waste",
+    "severity": "Critical",
+    "signals": [
+      "burning plastic waste",
+      "toxic smoke",
+      "breathing difficulty"
+    ],
+    "location": "Ward 4, Near Water Tank, Morabadi, Ranchi (23.3850, 85.3340)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0140",
+    "text": "Power trip happening every 10 minutes in industrial area. Work completely disrupted.  Urgent attention needed immediately!",
+    "category": "Electricity",
+    "severity": "High",
+    "signals": [
+      "power trip every 10 minutes",
+      "disrupted"
+    ],
+    "location": "Bank More, Near Shramik Chowk, Dhanbad (23.7957, 86.4304)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0141",
+    "text": "Transformer blown with loud blast, entire village in darkness since yesterday evening.  Urgent attention needed immediately!",
+    "category": "Electricity",
+    "severity": "High",
+    "signals": [
+      "blown with loud blast",
+      "entire village in darkness"
+    ],
+    "location": "Bariatu Road, Opposite RIMS Gate, Ranchi (23.3980, 85.3580)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0142",
+    "text": "Phase failure in Colony B since morning. Single phase running, AC and water pumps not working.  Please look into this at the earliest as public is suffering.",
+    "category": "Electricity",
+    "severity": "Medium",
+    "signals": [
+      "phase failure",
+      "since morning",
+      "pumps not working"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0143",
+    "text": "Municipal birth certificate counter clerk refusing to process applications without bribe.  Small issue, kindly repair whenever staff is available in this sector.",
+    "category": "Other",
+    "severity": "High",
+    "signals": [
+      "refusing to process applications",
+      "administrative"
+    ],
+    "location": "Sector 4/F, Bokaro Steel City (23.6693, 86.1511)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0144",
+    "text": "Municipal birth certificate counter clerk refusing to process applications without bribe.  Situation is deteriorating rapidly since this morning.",
+    "category": "Other",
+    "severity": "High",
+    "signals": [
+      "refusing to process applications",
+      "administrative"
+    ],
+    "location": "Hazaribagh Town, Near Lake Road (23.9930, 85.3620)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0145",
+    "text": "Open sewage drain blocked and overflowing black contaminated sludge onto residential walkway.  Urgent attention needed immediately!",
+    "category": "Sanitation & Waste",
+    "severity": "High",
+    "signals": [
+      "overflowing black sludge",
+      "residential walkway"
+    ],
+    "location": "Hazaribagh Town, Near Lake Road (23.9930, 85.3620)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0146",
+    "text": "School me bachhon ke baithne ke liye bench desk toota hua hai, zameen par baithna pad raha hai.  Situation is deteriorating rapidly since this morning.",
+    "category": "Education Infrastructure",
+    "severity": "High",
+    "signals": [
+      "bench desk toota",
+      "zameen par baithna pad raha"
+    ],
+    "location": "Deoghar Town, Near Tower Chowk (24.4826, 86.6976)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0147",
+    "text": "Public handpump handle broken near government primary school. Kids cannot drink water.  Urgent attention needed immediately!",
+    "category": "Water Supply",
+    "severity": "High",
+    "signals": [
+      "handle broken",
+      "primary school",
+      "cannot drink water"
+    ],
+    "location": "Ward 4, Near Water Tank, Morabadi, Ranchi (23.3850, 85.3340)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0148",
+    "text": "Damaged high security gate of municipal park left open at night.  Multiple complaints registered earlier with ward councillor but no action taken.",
+    "category": "Public Safety",
+    "severity": "Low",
+    "signals": [
+      "security gate left open"
+    ],
+    "location": "Main Road, Near Overbridge, Kadru, Ranchi (23.3629, 85.3211)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0149",
+    "text": "Commercial market meat waste and chicken remains dumped directly into open nallah, foul unbearable odor.  Please look into this at the earliest as public is suffering.",
+    "category": "Sanitation & Waste",
+    "severity": "High",
+    "signals": [
+      "meat waste dumped in nallah",
+      "unbearable odor"
+    ],
+    "location": "Giridih, Near Pachamba Road (24.1850, 86.3050)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0150",
+    "text": "Huge illegal political advertising hoarding blocking traffic signal visibility at main square.  Situation is deteriorating rapidly since this morning.",
+    "category": "Other",
+    "severity": "High",
+    "signals": [
+      "illegal hoarding",
+      "blocking traffic signal"
+    ],
+    "location": "Sector 4/F, Bokaro Steel City (23.6693, 86.1511)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0151",
+    "text": "Chemical fumes coming from illegal battery workshop next to residential houses, stinging eyes.  Please look into this at the earliest as public is suffering.",
+    "category": "Public Health",
+    "severity": "High",
+    "signals": [
+      "chemical fumes",
+      "stinging eyes",
+      "illegal workshop"
+    ],
+    "location": "Main Road, Near Overbridge, Kadru, Ranchi (23.3629, 85.3211)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0152",
+    "text": "Abandoned rusted car chassis parked on street for 6 months taking up space.  Small issue, kindly repair whenever staff is available in this sector.",
+    "category": "Other",
+    "severity": "Low",
+    "signals": [
+      "abandoned rusted car",
+      "6 months"
+    ],
+    "location": "Main Road, Near Overbridge, Kadru, Ranchi (23.3629, 85.3211)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0153",
+    "text": "Public handpump handle broken near government primary school. Kids cannot drink water.  Small issue, kindly repair whenever staff is available in this sector.",
+    "category": "Water Supply",
+    "severity": "Medium",
+    "signals": [
+      "handle broken",
+      "primary school",
+      "cannot drink water"
+    ],
+    "location": "Ward 4, Near Water Tank, Morabadi, Ranchi (23.3850, 85.3340)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0154",
+    "text": "Transformer blown with loud blast, entire village in darkness since yesterday evening.  Please look into this at the earliest as public is suffering.",
+    "category": "Electricity",
+    "severity": "High",
+    "signals": [
+      "blown with loud blast",
+      "entire village in darkness"
+    ],
+    "location": "Sector 4/F, Bokaro Steel City (23.6693, 86.1511)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0155",
+    "text": "Unlit sharp curve on valley road missing warning reflectors and guard rails.  Situation is deteriorating rapidly since this morning.",
+    "category": "Public Safety",
+    "severity": "High",
+    "signals": [
+      "missing warning reflectors",
+      "guard rails",
+      "sharp curve"
+    ],
+    "location": "Bank More, Near Shramik Chowk, Dhanbad (23.7957, 86.4304)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0156",
+    "text": "Single street light faulty on dead-end residential lane.  Urgent attention needed immediately!",
+    "category": "Public Safety",
+    "severity": "Low",
+    "signals": [
+      "single street light faulty"
+    ],
+    "location": "Sector 4/F, Bokaro Steel City (23.6693, 86.1511)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0157",
+    "text": "All 14 streetlights on bypass road dead for 3 weeks. Complete pitch darkness leading to snatching and accidents.  Situation is deteriorating rapidly since this morning.",
+    "category": "Public Safety",
+    "severity": "High",
+    "signals": [
+      "14 streetlights dead",
+      "3 weeks",
+      "pitch darkness",
+      "snatching"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0158",
+    "text": "Commercial diesel generator running continuously on pavement releasing thick black smoke.  Situation is deteriorating rapidly since this morning.",
+    "category": "Other",
+    "severity": "High",
+    "signals": [
+      "generator on pavement",
+      "thick black smoke"
+    ],
+    "location": "Giridih, Near Pachamba Road (24.1850, 86.3050)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0159",
+    "text": "Huge illegal political advertising hoarding blocking traffic signal visibility at main square.  Please look into this at the earliest as public is suffering.",
+    "category": "Other",
+    "severity": "Medium",
+    "signals": [
+      "illegal hoarding",
+      "blocking traffic signal"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0160",
+    "text": "Massive illegal garbage dump accumulating opposite government hospital. Rotting food and medical waste stinking horribly.  Small issue, kindly repair whenever staff is available in this sector.",
+    "category": "Sanitation & Waste",
+    "severity": "Critical",
+    "signals": [
+      "opposite hospital",
+      "medical waste",
+      "rotting food"
+    ],
+    "location": "Giridih, Near Pachamba Road (24.1850, 86.3050)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0161",
+    "text": "Water supply pressure is extremely low on upper floors in Hindpiri area for past one week.  Multiple complaints registered earlier with ward councillor but no action taken.",
+    "category": "Water Supply",
+    "severity": "Low",
+    "signals": [
+      "extremely low pressure",
+      "past one week"
+    ],
+    "location": "Ward 4, Near Water Tank, Morabadi, Ranchi (23.3850, 85.3340)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0162",
+    "text": "Drinking water pipeline contaminated with nearby drainage leakage. Dirty foul water in taps.  Situation is deteriorating rapidly since this morning.",
+    "category": "Water Supply",
+    "severity": "Critical",
+    "signals": [
+      "contaminated",
+      "drainage leakage",
+      "dirty foul water"
+    ],
+    "location": "Giridih, Near Pachamba Road (24.1850, 86.3050)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0163",
+    "text": "Huge 4-feet wide pothole on highway bridge bypass. Multiple two-wheelers slipping and falling daily.  Small issue, kindly repair whenever staff is available in this sector.",
+    "category": "Roads & Infrastructure",
+    "severity": "High",
+    "signals": [
+      "4-feet wide pothole",
+      "two-wheelers slipping",
+      "falling daily"
+    ],
+    "location": "Main Road, Near Overbridge, Kadru, Ranchi (23.3629, 85.3211)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0164",
+    "text": "Culvert collapsed after heavy rain on link road connecting village to town. Ambulance cannot pass!  Small issue, kindly repair whenever staff is available in this sector.",
+    "category": "Roads & Infrastructure",
+    "severity": "Critical",
+    "signals": [
+      "culvert collapsed",
+      "ambulance cannot pass",
+      "road cut off"
+    ],
+    "location": "Main Road, Near Overbridge, Kadru, Ranchi (23.3629, 85.3211)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0165",
+    "text": "Septic tank overflow running into street gutter and creating foul stench across neighborhood.  Urgent attention needed immediately!",
+    "category": "Sanitation & Waste",
+    "severity": "High",
+    "signals": [
+      "septic tank overflow",
+      "foul stench"
+    ],
+    "location": "Doranda, Near High Court Old Campus, Ranchi (23.3420, 85.3280)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0166",
+    "text": "Open dumping yard burning plastic waste at night causing toxic smoke and breathing difficulty.  Small issue, kindly repair whenever staff is available in this sector.",
+    "category": "Sanitation & Waste",
+    "severity": "Critical",
+    "signals": [
+      "burning plastic waste",
+      "toxic smoke",
+      "breathing difficulty"
+    ],
+    "location": "Ward 4, Near Water Tank, Morabadi, Ranchi (23.3850, 85.3340)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0167",
+    "text": "Electric meter burnt with heavy smoke inside apartment staircase. Power cut off to building.  Small issue, kindly repair whenever staff is available in this sector.",
+    "category": "Electricity",
+    "severity": "High",
+    "signals": [
+      "meter burnt",
+      "heavy smoke",
+      "staircase"
+    ],
+    "location": "Doranda, Near High Court Old Campus, Ranchi (23.3420, 85.3280)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0168",
+    "text": "No electricity in government secondary school during summer exam week.  Multiple complaints registered earlier with ward councillor but no action taken.",
+    "category": "Education Infrastructure",
+    "severity": "High",
+    "signals": [
+      "no electricity",
+      "summer exam week"
+    ],
+    "location": "Bank More, Near Shramik Chowk, Dhanbad (23.7957, 86.4304)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0169",
+    "text": "Rainwater leaking through classroom ceiling onto books and electrical switchboard during class hours.  Multiple complaints registered earlier with ward councillor but no action taken.",
+    "category": "Education Infrastructure",
+    "severity": "High",
+    "signals": [
+      "rainwater leaking through ceiling",
+      "switchboard during class"
+    ],
+    "location": "Hazaribagh Town, Near Lake Road (23.9930, 85.3620)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0170",
+    "text": "Large sinkhole formed in middle of busy intersection near bus stand.  Multiple complaints registered earlier with ward councillor but no action taken.",
+    "category": "Roads & Infrastructure",
+    "severity": "Critical",
+    "signals": [
+      "large sinkhole",
+      "busy intersection"
+    ],
+    "location": "Deoghar Town, Near Tower Chowk (24.4826, 86.6976)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0171",
+    "text": "No electricity in government secondary school during summer exam week.  Urgent attention needed immediately!",
+    "category": "Education Infrastructure",
+    "severity": "High",
+    "signals": [
+      "no electricity",
+      "summer exam week"
+    ],
+    "location": "Ward 4, Near Water Tank, Morabadi, Ranchi (23.3850, 85.3340)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0172",
+    "text": "Illegal sand mining trucks driving through village small street at night.  Small issue, kindly repair whenever staff is available in this sector.",
+    "category": "Other",
+    "severity": "High",
+    "signals": [
+      "illegal sand mining trucks",
+      "at night"
+    ],
+    "location": "Main Road, Near Overbridge, Kadru, Ranchi (23.3629, 85.3211)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0173",
+    "text": "Phase failure in Colony B since morning. Single phase running, AC and water pumps not working.  Please look into this at the earliest as public is suffering.",
+    "category": "Electricity",
+    "severity": "Medium",
+    "signals": [
+      "phase failure",
+      "since morning",
+      "pumps not working"
+    ],
+    "location": "Giridih, Near Pachamba Road (24.1850, 86.3050)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0174",
+    "text": "Cow carcass lying on roadside near vegetable mandi for 2 days, flies everywhere, health hazard.  Multiple complaints registered earlier with ward councillor but no action taken.",
+    "category": "Public Health",
+    "severity": "High",
+    "signals": [
+      "carcass lying for 2 days",
+      "flies everywhere",
+      "health hazard"
+    ],
+    "location": "Main Road, Near Overbridge, Kadru, Ranchi (23.3629, 85.3211)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0175",
+    "text": "Kachra gaadi has not visited Ward 9 for the last 6 days. Household garbage piled outside gates.  Multiple complaints registered earlier with ward councillor but no action taken.",
+    "category": "Sanitation & Waste",
+    "severity": "Medium",
+    "signals": [
+      "kachra gaadi not visited",
+      "last 6 days"
+    ],
+    "location": "Sector 4/F, Bokaro Steel City (23.6693, 86.1511)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0176",
+    "text": "Public notice board glass smashed.  Small issue, kindly repair whenever staff is available in this sector.",
+    "category": "Other",
+    "severity": "Low",
+    "signals": [
+      "notice board smashed"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0177",
+    "text": "Public handpump handle broken near government primary school. Kids cannot drink water.  Small issue, kindly repair whenever staff is available in this sector.",
+    "category": "Water Supply",
+    "severity": "Medium",
+    "signals": [
+      "handle broken",
+      "primary school",
+      "cannot drink water"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0178",
+    "text": "Transformer blown with loud blast, entire village in darkness since yesterday evening.  Please look into this at the earliest as public is suffering.",
+    "category": "Electricity",
+    "severity": "High",
+    "signals": [
+      "blown with loud blast",
+      "entire village in darkness"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0179",
+    "text": "Transformer blown with loud blast, entire village in darkness since yesterday evening.  Urgent attention needed immediately!",
+    "category": "Electricity",
+    "severity": "High",
+    "signals": [
+      "blown with loud blast",
+      "entire village in darkness"
+    ],
+    "location": "Giridih, Near Pachamba Road (24.1850, 86.3050)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0180",
+    "text": "Waterlogging up to knee level on station road due to poor slope. Traffic halted for hours.  Multiple complaints registered earlier with ward councillor but no action taken.",
+    "category": "Roads & Infrastructure",
+    "severity": "High",
+    "signals": [
+      "waterlogging up to knee level",
+      "traffic halted for hours"
+    ],
+    "location": "Doranda, Near High Court Old Campus, Ranchi (23.3420, 85.3280)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0181",
+    "text": "Small pile of dry leaves and garden waste dumped on corner lot.  Multiple complaints registered earlier with ward councillor but no action taken.",
+    "category": "Sanitation & Waste",
+    "severity": "Low",
+    "signals": [
+      "small pile",
+      "dry leaves"
+    ],
+    "location": "Bank More, Near Shramik Chowk, Dhanbad (23.7957, 86.4304)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0182",
+    "text": "Dead pigs in drain creating severe bacterial contamination risk.  Situation is deteriorating rapidly since this morning.",
+    "category": "Public Health",
+    "severity": "High",
+    "signals": [
+      "dead pigs in drain",
+      "contamination risk"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0183",
+    "text": "Main water supply pipeline cracked near Morabadi ground. Water gushing out at high pressure for past 12 hours.  Situation is deteriorating rapidly since this morning.",
+    "category": "Water Supply",
+    "severity": "High",
+    "signals": [
+      "pipeline cracked",
+      "gushing out",
+      "past 12 hours"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0184",
+    "text": "Overhead water tank in Ward 4 has been overflowing continuously for 3 days. Clean drinking water flooding the road and entering houses.  Multiple complaints registered earlier with ward councillor but no action taken.",
+    "category": "Water Supply",
+    "severity": "High",
+    "signals": [
+      "overflowing continuously",
+      "3 days",
+      "entering houses"
+    ],
+    "location": "Sector 4/F, Bokaro Steel City (23.6693, 86.1511)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0185",
+    "text": "Cow carcass lying on roadside near vegetable mandi for 2 days, flies everywhere, health hazard.  Situation is deteriorating rapidly since this morning.",
+    "category": "Public Health",
+    "severity": "High",
+    "signals": [
+      "carcass lying for 2 days",
+      "flies everywhere",
+      "health hazard"
+    ],
+    "location": "Giridih, Near Pachamba Road (24.1850, 86.3050)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0186",
+    "text": "Biting stray dogs around bus stop creating panic among morning walkers.  Urgent attention needed immediately!",
+    "category": "Public Safety",
+    "severity": "High",
+    "signals": [
+      "biting stray dogs",
+      "panic among walkers"
+    ],
+    "location": "Main Road, Near Overbridge, Kadru, Ranchi (23.3629, 85.3211)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0187",
+    "text": "Transformer blown with loud blast, entire village in darkness since yesterday evening.  Please look into this at the earliest as public is suffering.",
+    "category": "Electricity",
+    "severity": "High",
+    "signals": [
+      "blown with loud blast",
+      "entire village in darkness"
+    ],
+    "location": "Giridih, Near Pachamba Road (24.1850, 86.3050)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0188",
+    "text": "Drinking water pipeline laid 2 months ago has ruptured under road weight. Fresh water wasted.  Multiple complaints registered earlier with ward councillor but no action taken.",
+    "category": "Water Supply",
+    "severity": "Medium",
+    "signals": [
+      "ruptured",
+      "fresh water wasted"
+    ],
+    "location": "Doranda, Near High Court Old Campus, Ranchi (23.3420, 85.3280)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0189",
+    "text": "Speed breaker built without white markings or warning signs causing sudden brake accidents.  Please look into this at the earliest as public is suffering.",
+    "category": "Roads & Infrastructure",
+    "severity": "Medium",
+    "signals": [
+      "speed breaker without markings",
+      "accidents"
+    ],
+    "location": "Ward 4, Near Water Tank, Morabadi, Ranchi (23.3850, 85.3340)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0190",
+    "text": "Swasthya kendra me dawa bilkul khatam hai, bukhar ke mareez laut rahe hain.  Urgent attention needed immediately!",
+    "category": "Public Health",
+    "severity": "High",
+    "signals": [
+      "dawa khatam",
+      "swasthya kendra",
+      "mareez laut rahe"
+    ],
+    "location": "Bariatu Road, Opposite RIMS Gate, Ranchi (23.3980, 85.3580)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0191",
+    "text": "Public community toilet in slum area blocked with no running water for cleaning.  Please look into this at the earliest as public is suffering.",
+    "category": "Sanitation & Waste",
+    "severity": "High",
+    "signals": [
+      "toilet blocked",
+      "no running water"
+    ],
+    "location": "Main Road, Near Overbridge, Kadru, Ranchi (23.3629, 85.3211)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0192",
+    "text": "Classroom ceiling fan hanging loosely by single wire over children.  Small issue, kindly repair whenever staff is available in this sector.",
+    "category": "Education Infrastructure",
+    "severity": "Critical",
+    "signals": [
+      "fan hanging loosely by single wire",
+      "over children"
+    ],
+    "location": "Hazaribagh Town, Near Lake Road (23.9930, 85.3620)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0193",
+    "text": "Minor potholes near colony entrance need patch repair before monsoon.  Please look into this at the earliest as public is suffering.",
+    "category": "Roads & Infrastructure",
+    "severity": "Low",
+    "signals": [
+      "minor potholes",
+      "patch repair"
+    ],
+    "location": "Sector 4/F, Bokaro Steel City (23.6693, 86.1511)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0194",
+    "text": "Minor potholes near colony entrance need patch repair before monsoon.  Situation is deteriorating rapidly since this morning.",
+    "category": "Roads & Infrastructure",
+    "severity": "Low",
+    "signals": [
+      "minor potholes",
+      "patch repair"
+    ],
+    "location": "Ward 4, Near Water Tank, Morabadi, Ranchi (23.3850, 85.3340)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0195",
+    "text": "Dividers broken and iron rebar sticking out into road lane.  Multiple complaints registered earlier with ward councillor but no action taken.",
+    "category": "Roads & Infrastructure",
+    "severity": "High",
+    "signals": [
+      "iron rebar sticking out",
+      "into road lane"
+    ],
+    "location": "Hazaribagh Town, Near Lake Road (23.9930, 85.3620)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0196",
+    "text": "Drain cover broken, sewage water backing up into ground floor houses during rain.  Please look into this at the earliest as public is suffering.",
+    "category": "Sanitation & Waste",
+    "severity": "High",
+    "signals": [
+      "sewage backing up into houses"
+    ],
+    "location": "Main Road, Near Overbridge, Kadru, Ranchi (23.3629, 85.3211)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0197",
+    "text": "Construction company left deep 10-foot trench without lighting or reflective tape on roadside.  Urgent attention needed immediately!",
+    "category": "Public Safety",
+    "severity": "Critical",
+    "signals": [
+      "10-foot trench",
+      "without lighting or reflective tape"
+    ],
+    "location": "Deoghar Town, Near Tower Chowk (24.4826, 86.6976)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0198",
+    "text": "Commercial market meat waste and chicken remains dumped directly into open nallah, foul unbearable odor.  Situation is deteriorating rapidly since this morning.",
+    "category": "Sanitation & Waste",
+    "severity": "High",
+    "signals": [
+      "meat waste dumped in nallah",
+      "unbearable odor"
+    ],
+    "location": "Bariatu Road, Opposite RIMS Gate, Ranchi (23.3980, 85.3580)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0199",
+    "text": "Foul chemical runoff from small dyeing unit entering soil.  Please look into this at the earliest as public is suffering.",
+    "category": "Public Health",
+    "severity": "Medium",
+    "signals": [
+      "chemical runoff",
+      "entering soil"
+    ],
+    "location": "Bank More, Near Shramik Chowk, Dhanbad (23.7957, 86.4304)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0200",
+    "text": "Public handpump handle broken near government primary school. Kids cannot drink water.  Please look into this at the earliest as public is suffering.",
+    "category": "Water Supply",
+    "severity": "Medium",
+    "signals": [
+      "handle broken",
+      "primary school",
+      "cannot drink water"
+    ],
+    "location": "Hazaribagh Town, Near Lake Road (23.9930, 85.3620)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0201",
+    "text": "Primary school has no functional drinking water filter. Students drinking untreated borewell water.  Urgent attention needed immediately!",
+    "category": "Education Infrastructure",
+    "severity": "High",
+    "signals": [
+      "no functional drinking water filter",
+      "untreated water"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0202",
+    "text": "School boundary fence missing allowing highway traffic right next to playground.  Small issue, kindly repair whenever staff is available in this sector.",
+    "category": "Education Infrastructure",
+    "severity": "High",
+    "signals": [
+      "boundary fence missing",
+      "highway traffic next to playground"
+    ],
+    "location": "Hazaribagh Town, Near Lake Road (23.9930, 85.3620)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0203",
+    "text": "Government Primary School classroom roof slab cracked and chunks of concrete falling onto student desks!  Urgent attention needed immediately!",
+    "category": "Education Infrastructure",
+    "severity": "Critical",
+    "signals": [
+      "roof slab cracked",
+      "concrete falling",
+      "student desks"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0204",
+    "text": "Freshly tarred road started peeling off within 2 days after first shower. Substandard work.  Multiple complaints registered earlier with ward councillor but no action taken.",
+    "category": "Roads & Infrastructure",
+    "severity": "Low",
+    "signals": [
+      "peeling off within 2 days",
+      "substandard work"
+    ],
+    "location": "Ward 4, Near Water Tank, Morabadi, Ranchi (23.3850, 85.3340)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0205",
+    "text": "Transformer oil leaking on the ground near tea stall. Loud humming noise coming continuously.  Situation is deteriorating rapidly since this morning.",
+    "category": "Electricity",
+    "severity": "High",
+    "signals": [
+      "oil leaking",
+      "loud humming"
+    ],
+    "location": "Bariatu Road, Opposite RIMS Gate, Ranchi (23.3980, 85.3580)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0206",
+    "text": "School me bachhon ke baithne ke liye bench desk toota hua hai, zameen par baithna pad raha hai.  Small issue, kindly repair whenever staff is available in this sector.",
+    "category": "Education Infrastructure",
+    "severity": "Medium",
+    "signals": [
+      "bench desk toota",
+      "zameen par baithna pad raha"
+    ],
+    "location": "Giridih, Near Pachamba Road (24.1850, 86.3050)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0207",
+    "text": "Electric meter burnt with heavy smoke inside apartment staircase. Power cut off to building.  Small issue, kindly repair whenever staff is available in this sector.",
+    "category": "Electricity",
+    "severity": "High",
+    "signals": [
+      "meter burnt",
+      "heavy smoke",
+      "staircase"
+    ],
+    "location": "Bank More, Near Shramik Chowk, Dhanbad (23.7957, 86.4304)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0208",
+    "text": "Stagnant green water pool in abandoned plot breeding swarm of mosquitoes. 12 confirmed dengue cases in colony.  Situation is deteriorating rapidly since this morning.",
+    "category": "Public Health",
+    "severity": "Critical",
+    "signals": [
+      "swarm of mosquitoes",
+      "12 confirmed dengue cases"
+    ],
+    "location": "Ward 4, Near Water Tank, Morabadi, Ranchi (23.3850, 85.3340)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0209",
+    "text": "Kachra gaadi has not visited Ward 9 for the last 6 days. Household garbage piled outside gates.  Situation is deteriorating rapidly since this morning.",
+    "category": "Sanitation & Waste",
+    "severity": "High",
+    "signals": [
+      "kachra gaadi not visited",
+      "last 6 days"
+    ],
+    "location": "Main Road, Near Overbridge, Kadru, Ranchi (23.3629, 85.3211)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0210",
+    "text": "School playground inundated with 1 foot mud and dangerous iron scraps.  Multiple complaints registered earlier with ward councillor but no action taken.",
+    "category": "Education Infrastructure",
+    "severity": "Medium",
+    "signals": [
+      "inundated with mud",
+      "dangerous iron scraps"
+    ],
+    "location": "Main Road, Near Overbridge, Kadru, Ranchi (23.3629, 85.3211)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0211",
+    "text": "Dead pigs in drain creating severe bacterial contamination risk.  Multiple complaints registered earlier with ward councillor but no action taken.",
+    "category": "Public Health",
+    "severity": "High",
+    "signals": [
+      "dead pigs in drain",
+      "contamination risk"
+    ],
+    "location": "Hazaribagh Town, Near Lake Road (23.9930, 85.3620)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0212",
+    "text": "School me bachhon ke baithne ke liye bench desk toota hua hai, zameen par baithna pad raha hai.  Multiple complaints registered earlier with ward councillor but no action taken.",
+    "category": "Education Infrastructure",
+    "severity": "Medium",
+    "signals": [
+      "bench desk toota",
+      "zameen par baithna pad raha"
+    ],
+    "location": "Giridih, Near Pachamba Road (24.1850, 86.3050)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0213",
+    "text": "Entire stretch of Main Street has craters and broken asphalt. Severe dust and back injuries to commuters.  Situation is deteriorating rapidly since this morning.",
+    "category": "Roads & Infrastructure",
+    "severity": "High",
+    "signals": [
+      "craters and broken asphalt",
+      "back injuries"
+    ],
+    "location": "Hazaribagh Town, Near Lake Road (23.9930, 85.3620)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0214",
+    "text": "Freshly tarred road started peeling off within 2 days after first shower. Substandard work.  Small issue, kindly repair whenever staff is available in this sector.",
+    "category": "Roads & Infrastructure",
+    "severity": "Low",
+    "signals": [
+      "peeling off within 2 days",
+      "substandard work"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0215",
+    "text": "Biting stray dogs around bus stop creating panic among morning walkers.  Urgent attention needed immediately!",
+    "category": "Public Safety",
+    "severity": "High",
+    "signals": [
+      "biting stray dogs",
+      "panic among walkers"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0216",
+    "text": "Children showing symptoms of skin infection and rashes after using municipal park with untreated standing water.  Situation is deteriorating rapidly since this morning.",
+    "category": "Public Health",
+    "severity": "High",
+    "signals": [
+      "children skin infection",
+      "untreated standing water"
+    ],
+    "location": "Doranda, Near High Court Old Campus, Ranchi (23.3420, 85.3280)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0217",
+    "text": "Midday meal kitchen shed has asbestos roof broken with soot accumulation.  Situation is deteriorating rapidly since this morning.",
+    "category": "Education Infrastructure",
+    "severity": "High",
+    "signals": [
+      "kitchen shed broken",
+      "soot accumulation"
+    ],
+    "location": "Deoghar Town, Near Tower Chowk (24.4826, 86.6976)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0218",
+    "text": "Gali ki naali jam ho gayi hai, ganda paani ghar ke samne jama hai.  Situation is deteriorating rapidly since this morning.",
+    "category": "Sanitation & Waste",
+    "severity": "High",
+    "signals": [
+      "naali jam",
+      "ganda paani jama hai"
+    ],
+    "location": "Sector 4/F, Bokaro Steel City (23.6693, 86.1511)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0219",
+    "text": "Street power junction box left open with live bare copper terminals exposed on pavement where children play.  Small issue, kindly repair whenever staff is available in this sector.",
+    "category": "Electricity",
+    "severity": "Critical",
+    "signals": [
+      "live bare terminals exposed",
+      "children play"
+    ],
+    "location": "Doranda, Near High Court Old Campus, Ranchi (23.3420, 85.3280)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0220",
+    "text": "Boundary wall of girls high school collapsed, allowing stray animals and unauthorized intruders inside.  Please look into this at the earliest as public is suffering.",
+    "category": "Education Infrastructure",
+    "severity": "High",
+    "signals": [
+      "boundary wall collapsed",
+      "girls high school",
+      "unauthorized intruders"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0221",
+    "text": "Bio-waste dumped behind nursing home without proper incineration.  Please look into this at the earliest as public is suffering.",
+    "category": "Sanitation & Waste",
+    "severity": "Critical",
+    "signals": [
+      "bio-waste dumped",
+      "behind nursing home"
+    ],
+    "location": "Sector 4/F, Bokaro Steel City (23.6693, 86.1511)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0222",
+    "text": "Overhead water tank in Ward 4 has been overflowing continuously for 3 days. Clean drinking water flooding the road and entering houses.  Please look into this at the earliest as public is suffering.",
+    "category": "Water Supply",
+    "severity": "High",
+    "signals": [
+      "overflowing continuously",
+      "3 days",
+      "entering houses"
+    ],
+    "location": "Deoghar Town, Near Tower Chowk (24.4826, 86.6976)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0223",
+    "text": "Street bijli ka wire toot kar sadak par gira hai, kabhi bhi current lag sakta hai kisi ko.  Situation is deteriorating rapidly since this morning.",
+    "category": "Electricity",
+    "severity": "Critical",
+    "signals": [
+      "wire toot kar sadak par gira",
+      "current lag sakta hai"
+    ],
+    "location": "Doranda, Near High Court Old Campus, Ranchi (23.3420, 85.3280)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0224",
+    "text": "Small pile of dry leaves and garden waste dumped on corner lot.  Situation is deteriorating rapidly since this morning.",
+    "category": "Sanitation & Waste",
+    "severity": "Low",
+    "signals": [
+      "small pile",
+      "dry leaves"
+    ],
+    "location": "Deoghar Town, Near Tower Chowk (24.4826, 86.6976)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0225",
+    "text": "Dark deserted alley under railway overbridge being used for illicit drug activities and harassment of women.  Please look into this at the earliest as public is suffering.",
+    "category": "Public Safety",
+    "severity": "High",
+    "signals": [
+      "illicit drug activities",
+      "harassment of women",
+      "dark alley"
+    ],
+    "location": "Ward 4, Near Water Tank, Morabadi, Ranchi (23.3850, 85.3340)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0226",
+    "text": "Overhead cable sagged too low, getting entangled with passing trucks.  Situation is deteriorating rapidly since this morning.",
+    "category": "Electricity",
+    "severity": "High",
+    "signals": [
+      "overhead cable sagged",
+      "entangled with trucks"
+    ],
+    "location": "Bank More, Near Shramik Chowk, Dhanbad (23.7957, 86.4304)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0227",
+    "text": "Mud and gravel spread across curvy road causing bikes to skid.  Small issue, kindly repair whenever staff is available in this sector.",
+    "category": "Roads & Infrastructure",
+    "severity": "Medium",
+    "signals": [
+      "mud and gravel",
+      "bikes to skid"
+    ],
+    "location": "Deoghar Town, Near Tower Chowk (24.4826, 86.6976)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0228",
+    "text": "Overhead tank valve is loose causing water overflow every afternoon when pump turns on.  Please look into this at the earliest as public is suffering.",
+    "category": "Water Supply",
+    "severity": "Medium",
+    "signals": [
+      "valve loose",
+      "overflow every afternoon"
+    ],
+    "location": "Main Road, Near Overbridge, Kadru, Ranchi (23.3629, 85.3211)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0229",
+    "text": "Huge illegal political advertising hoarding blocking traffic signal visibility at main square.  Situation is deteriorating rapidly since this morning.",
+    "category": "Other",
+    "severity": "High",
+    "signals": [
+      "illegal hoarding",
+      "blocking traffic signal"
+    ],
+    "location": "Giridih, Near Pachamba Road (24.1850, 86.3050)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0230",
+    "text": "Classroom ceiling fan hanging loosely by single wire over children.  Situation is deteriorating rapidly since this morning.",
+    "category": "Education Infrastructure",
+    "severity": "Critical",
+    "signals": [
+      "fan hanging loosely by single wire",
+      "over children"
+    ],
+    "location": "Doranda, Near High Court Old Campus, Ranchi (23.3420, 85.3280)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0231",
+    "text": "Construction company left deep 10-foot trench without lighting or reflective tape on roadside.  Small issue, kindly repair whenever staff is available in this sector.",
+    "category": "Public Safety",
+    "severity": "Critical",
+    "signals": [
+      "10-foot trench",
+      "without lighting or reflective tape"
+    ],
+    "location": "Deoghar Town, Near Tower Chowk (24.4826, 86.6976)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0232",
+    "text": "Dividers broken and iron rebar sticking out into road lane.  Situation is deteriorating rapidly since this morning.",
+    "category": "Roads & Infrastructure",
+    "severity": "High",
+    "signals": [
+      "iron rebar sticking out",
+      "into road lane"
+    ],
+    "location": "Deoghar Town, Near Tower Chowk (24.4826, 86.6976)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0233",
+    "text": "Open defecation area near water source spreading gastrointestinal diseases.  Please look into this at the earliest as public is suffering.",
+    "category": "Public Health",
+    "severity": "High",
+    "signals": [
+      "open defecation",
+      "spreading gastrointestinal diseases"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0234",
+    "text": "Stray cattle blocking colony internal road.  Please look into this at the earliest as public is suffering.",
+    "category": "Other",
+    "severity": "Low",
+    "signals": [
+      "stray cattle blocking"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0235",
+    "text": "Encroachment of public footpath by unauthorized vendor permanent tin sheds.  Multiple complaints registered earlier with ward councillor but no action taken.",
+    "category": "Other",
+    "severity": "Medium",
+    "signals": [
+      "encroachment of public footpath",
+      "unauthorized tin sheds"
+    ],
+    "location": "Bank More, Near Shramik Chowk, Dhanbad (23.7957, 86.4304)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0236",
+    "text": "Swasthya kendra me dawa bilkul khatam hai, bukhar ke mareez laut rahe hain.  Multiple complaints registered earlier with ward councillor but no action taken.",
+    "category": "Public Health",
+    "severity": "High",
+    "signals": [
+      "dawa khatam",
+      "swasthya kendra",
+      "mareez laut rahe"
+    ],
+    "location": "Giridih, Near Pachamba Road (24.1850, 86.3050)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0237",
+    "text": "Unscheduled power outage in Bariatu for over 18 hours. Inverters drained, hospital patients struggling.  Please look into this at the earliest as public is suffering.",
+    "category": "Electricity",
+    "severity": "High",
+    "signals": [
+      "outage over 18 hours",
+      "hospital patients struggling"
+    ],
+    "location": "Bank More, Near Shramik Chowk, Dhanbad (23.7957, 86.4304)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0238",
+    "text": "Damaged high security gate of municipal park left open at night.  Please look into this at the earliest as public is suffering.",
+    "category": "Public Safety",
+    "severity": "Low",
+    "signals": [
+      "security gate left open"
+    ],
+    "location": "Bank More, Near Shramik Chowk, Dhanbad (23.7957, 86.4304)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0239",
+    "text": "Electric meter burnt with heavy smoke inside apartment staircase. Power cut off to building.  Situation is deteriorating rapidly since this morning.",
+    "category": "Electricity",
+    "severity": "High",
+    "signals": [
+      "meter burnt",
+      "heavy smoke",
+      "staircase"
+    ],
+    "location": "Bariatu Road, Opposite RIMS Gate, Ranchi (23.3980, 85.3580)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0240",
+    "text": "Loud industrial machinery operating in residential basement without license.  Urgent attention needed immediately!",
+    "category": "Other",
+    "severity": "High",
+    "signals": [
+      "industrial machinery in residential basement",
+      "without license"
+    ],
+    "location": "Bank More, Near Shramik Chowk, Dhanbad (23.7957, 86.4304)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0241",
+    "text": "Street light ka pole kharab hai, pichle ek mahine se andhera rehta hai colony me.  Small issue, kindly repair whenever staff is available in this sector.",
+    "category": "Public Safety",
+    "severity": "Medium",
+    "signals": [
+      "pole kharab",
+      "ek mahine se andhera"
+    ],
+    "location": "Ward 4, Near Water Tank, Morabadi, Ranchi (23.3850, 85.3340)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0242",
+    "text": "Unlit sharp curve on valley road missing warning reflectors and guard rails.  Urgent attention needed immediately!",
+    "category": "Public Safety",
+    "severity": "High",
+    "signals": [
+      "missing warning reflectors",
+      "guard rails",
+      "sharp curve"
+    ],
+    "location": "Bariatu Road, Opposite RIMS Gate, Ranchi (23.3980, 85.3580)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0243",
+    "text": "Open defecation area near water source spreading gastrointestinal diseases.  Situation is deteriorating rapidly since this morning.",
+    "category": "Public Health",
+    "severity": "High",
+    "signals": [
+      "open defecation",
+      "spreading gastrointestinal diseases"
+    ],
+    "location": "Hazaribagh Town, Near Lake Road (23.9930, 85.3620)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0244",
+    "text": "Clogged storm drain full of plastic bottles and silt. Water stagnant for weeks.  Please look into this at the earliest as public is suffering.",
+    "category": "Sanitation & Waste",
+    "severity": "Medium",
+    "signals": [
+      "clogged storm drain",
+      "stagnant for weeks"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0245",
+    "text": "Unlit sharp curve on valley road missing warning reflectors and guard rails.  Urgent attention needed immediately!",
+    "category": "Public Safety",
+    "severity": "High",
+    "signals": [
+      "missing warning reflectors",
+      "guard rails",
+      "sharp curve"
+    ],
+    "location": "Hazaribagh Town, Near Lake Road (23.9930, 85.3620)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0246",
+    "text": "School boundary fence missing allowing highway traffic right next to playground.  Situation is deteriorating rapidly since this morning.",
+    "category": "Education Infrastructure",
+    "severity": "High",
+    "signals": [
+      "boundary fence missing",
+      "highway traffic next to playground"
+    ],
+    "location": "Sector 4/F, Bokaro Steel City (23.6693, 86.1511)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0247",
+    "text": "Municipal office delayed issuance of trade license for 4 months.  Please look into this at the earliest as public is suffering.",
+    "category": "Other",
+    "severity": "Low",
+    "signals": [
+      "delayed issuance",
+      "4 months"
+    ],
+    "location": "Doranda, Near High Court Old Campus, Ranchi (23.3420, 85.3280)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0248",
+    "text": "Severe water shortage in Ward 12. No supply for 4 days in this summer heat.  Situation is deteriorating rapidly since this morning.",
+    "category": "Water Supply",
+    "severity": "Critical",
+    "signals": [
+      "severe water shortage",
+      "no supply for 4 days",
+      "summer heat"
+    ],
+    "location": "Doranda, Near High Court Old Campus, Ranchi (23.3420, 85.3280)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0249",
+    "text": "Main water supply pipeline cracked near Morabadi ground. Water gushing out at high pressure for past 12 hours.  Situation is deteriorating rapidly since this morning.",
+    "category": "Water Supply",
+    "severity": "High",
+    "signals": [
+      "pipeline cracked",
+      "gushing out",
+      "past 12 hours"
+    ],
+    "location": "Sector 4/F, Bokaro Steel City (23.6693, 86.1511)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0250",
+    "text": "Huge illegal political advertising hoarding blocking traffic signal visibility at main square.  Urgent attention needed immediately!",
+    "category": "Other",
+    "severity": "High",
+    "signals": [
+      "illegal hoarding",
+      "blocking traffic signal"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0251",
+    "text": "Roadside tree trunk completely rotten and swinging in wind, could crush passing cars at any moment.  Please look into this at the earliest as public is suffering.",
+    "category": "Public Safety",
+    "severity": "Critical",
+    "signals": [
+      "tree trunk rotten",
+      "could crush passing cars"
+    ],
+    "location": "Deoghar Town, Near Tower Chowk (24.4826, 86.6976)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0252",
+    "text": "School building plaster peeling off and window glass broken in 3 classrooms.  Situation is deteriorating rapidly since this morning.",
+    "category": "Education Infrastructure",
+    "severity": "High",
+    "signals": [
+      "plaster peeling off",
+      "window glass broken"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0253",
+    "text": "Manhole cover stolen on main market crossing, people putting tree branches as makeshift warning.  Urgent attention needed immediately!",
+    "category": "Public Safety",
+    "severity": "High",
+    "signals": [
+      "manhole cover stolen",
+      "tree branches as makeshift warning"
+    ],
+    "location": "Deoghar Town, Near Tower Chowk (24.4826, 86.6976)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0254",
+    "text": "Water supply pressure is extremely low on upper floors in Hindpiri area for past one week.  Small issue, kindly repair whenever staff is available in this sector.",
+    "category": "Water Supply",
+    "severity": "Low",
+    "signals": [
+      "extremely low pressure",
+      "past one week"
+    ],
+    "location": "Ward 4, Near Water Tank, Morabadi, Ranchi (23.3850, 85.3340)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0255",
+    "text": "Rainwater leaking through classroom ceiling onto books and electrical switchboard during class hours.  Urgent attention needed immediately!",
+    "category": "Education Infrastructure",
+    "severity": "High",
+    "signals": [
+      "rainwater leaking through ceiling",
+      "switchboard during class"
+    ],
+    "location": "Ward 4, Near Water Tank, Morabadi, Ranchi (23.3850, 85.3340)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  },
+  {
+    "report_id": "SYNTH_0256",
+    "text": "Tap water coming from municipal supply is completely muddy and smells like sewage. Children falling sick with stomach ache.  Please look into this at the earliest as public is suffering.",
+    "category": "Water Supply",
+    "severity": "Critical",
+    "signals": [
+      "muddy water",
+      "smells like sewage",
+      "children falling sick"
+    ],
+    "location": "Ward 4, Near Water Tank, Morabadi, Ranchi (23.3850, 85.3340)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0257",
+    "text": "Entire stretch of Main Street has craters and broken asphalt. Severe dust and back injuries to commuters.  Please look into this at the earliest as public is suffering.",
+    "category": "Roads & Infrastructure",
+    "severity": "Medium",
+    "signals": [
+      "craters and broken asphalt",
+      "back injuries"
+    ],
+    "location": "Deoghar Town, Near Tower Chowk (24.4826, 86.6976)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0258",
+    "text": "Transformer oil leaking on the ground near tea stall. Loud humming noise coming continuously.  Please look into this at the earliest as public is suffering.",
+    "category": "Electricity",
+    "severity": "Medium",
+    "signals": [
+      "oil leaking",
+      "loud humming"
+    ],
+    "location": "Deoghar Town, Near Tower Chowk (24.4826, 86.6976)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0259",
+    "text": "Open defecation area near water source spreading gastrointestinal diseases.  Multiple complaints registered earlier with ward councillor but no action taken.",
+    "category": "Public Health",
+    "severity": "High",
+    "signals": [
+      "open defecation",
+      "spreading gastrointestinal diseases"
+    ],
+    "location": "Sector 4/F, Bokaro Steel City (23.6693, 86.1511)",
+    "is_synthetic": true,
+    "dataset_split": "train"
+  },
+  {
+    "report_id": "SYNTH_0260",
+    "text": "Overhead cable sagged too low, getting entangled with passing trucks.  Please look into this at the earliest as public is suffering.",
+    "category": "Electricity",
+    "severity": "High",
+    "signals": [
+      "overhead cable sagged",
+      "entangled with trucks"
+    ],
+    "location": "Sakchi Bazaar, Near Post Office, Jamshedpur (22.8046, 86.2029)",
+    "is_synthetic": true,
+    "dataset_split": "test"
+  }
+]
