@@ -1,0 +1,272 @@
+# Civic Visual Concept Taxonomy Configuration (SIH 2026)
+# Defines observable civic visual concepts and unrelated/negative concepts for independent image analysis.
+version: "1.0.0"
+
+concepts:
+  # --- Roads / Infrastructure ---
+  - id: "pothole"
+    label: "pothole"
+    category: "Roads / Infrastructure"
+    problem_type: "Pothole"
+    description: "A deep hole or crater in an asphalt or concrete road surface."
+    clip_prompts:
+      - "a photo of a deep pothole in an asphalt road"
+      - "a photo of a road crater with broken pavement"
+      - "a close-up photo of a damaged road with a pothole"
+    is_unrelated: false
+
+  - id: "road_crack"
+    label: "road crack"
+    category: "Roads / Infrastructure"
+    problem_type: "Road Crack"
+    description: "Fractured cracks, fissures, or alligator cracking across asphalt pavement."
+    clip_prompts:
+      - "a photo of cracked asphalt road pavement"
+      - "a photo of fissures and fractures in a concrete street"
+    is_unrelated: false
+
+  - id: "damaged_road"
+    label: "damaged road"
+    category: "Roads / Infrastructure"
+    problem_type: "Damaged Road"
+    description: "Broken, crumbling, or severely eroded roadway surface."
+    clip_prompts:
+      - "a photo of a broken damaged asphalt road"
+      - "a photo of an eroded unfinished gravel or dirt road with tire ruts"
+    is_unrelated: false
+
+  - id: "damaged_road_sign"
+    label: "damaged road sign"
+    category: "Roads / Infrastructure"
+    problem_type: "Damaged Road Sign"
+    description: "Bent, fallen, vandalized, or missing traffic sign on a road."
+    clip_prompts:
+      - "a photo of a bent broken traffic sign on a street"
+      - "a photo of a damaged street signboard"
+    is_unrelated: false
+
+  - id: "broken_public_infrastructure"
+    label: "broken public infrastructure"
+    category: "Roads / Infrastructure"
+    problem_type: "Broken Public Infrastructure"
+    description: "Damaged public footpath, pedestrian divider, handrail, or public bench."
+    clip_prompts:
+      - "a photo of broken concrete sidewalk or damaged footpath"
+      - "a photo of damaged road divider or broken guard rail"
+    is_unrelated: false
+
+  - id: "fallen_tree"
+    label: "fallen tree"
+    category: "Roads / Infrastructure"
+    problem_type: "Fallen Tree Obstruction"
+    description: "A fallen tree or massive tree branch blocking a public road or pathway."
+    clip_prompts:
+      - "a photo of a fallen tree blocking a road"
+      - "a photo of fallen branches on a street"
+    is_unrelated: false
+
+  # --- Water Supply & Water Hazards ---
+  - id: "waterlogging"
+    label: "waterlogging"
+    category: "Water Supply"
+    problem_type: "Waterlogging"
+    description: "Standing rainwater or puddle submerged across street or lane."
+    clip_prompts:
+      - "a photo of waterlogging on a city street"
+      - "a photo of vehicles driving through standing puddle water on a road"
+    is_unrelated: false
+
+  - id: "flooding"
+    label: "flooding"
+    category: "Water Supply"
+    problem_type: "Flooding"
+    description: "Severe inundation of water submerging streets, sidewalks, or houses."
+    clip_prompts:
+      - "a photo of deep street flooding after torrential rain"
+      - "a photo of flooded road with water entering nearby buildings"
+    is_unrelated: false
+
+  - id: "leaking_water_pipe"
+    label: "leaking water pipe"
+    category: "Water Supply"
+    problem_type: "Pipeline Leakage"
+    description: "Broken municipal water supply pipe gushing or leaking drinking water."
+    clip_prompts:
+      - "a photo of a leaking municipal water pipe or burst water main"
+      - "a photo of water gushing from broken supply pipe onto road"
+    is_unrelated: false
+
+  - id: "overhead_tank_overflow"
+    label: "overhead tank overflow"
+    category: "Water Supply"
+    problem_type: "Tank Overflow"
+    description: "Large overhead water storage tank overflowing with cascading water."
+    clip_prompts:
+      - "a photo showing water overflowing from an elevated overhead water tank"
+      - "a photo of a public water reservoir tank spilling excess water"
+    is_unrelated: false
+
+  # --- Sanitation / Waste ---
+  - id: "garbage_dump"
+    label: "garbage dump"
+    category: "Sanitation / Waste"
+    problem_type: "Garbage Dumping"
+    description: "Accumulated open trash heap or roadside municipal garbage dump."
+    clip_prompts:
+      - "a photo of an illegal open garbage dump on a street"
+      - "a photo of waste piles and trash accumulated on roadside"
+    is_unrelated: false
+
+  - id: "overflowing_garbage"
+    label: "overflowing garbage"
+    category: "Sanitation / Waste"
+    problem_type: "Overflowing Garbage Bin"
+    description: "Public dustbin or dumpster overflowing with litter scattered around."
+    clip_prompts:
+      - "a photo of an overflowing municipal dustbin with trash on the ground"
+      - "a photo of garbage spilled around a public dumpster"
+    is_unrelated: false
+
+  - id: "open_drain"
+    label: "open drain"
+    category: "Sanitation / Waste"
+    problem_type: "Open Drain Hazard"
+    description: "Uncovered deep drainage canal or open street drain."
+    clip_prompts:
+      - "a photo of an uncovered open drainage ditch beside a road"
+      - "a photo of an open municipal sewer drain"
+    is_unrelated: false
+
+  - id: "sewage"
+    label: "sewage"
+    category: "Sanitation / Waste"
+    problem_type: "Sewage Overflow"
+    description: "Foul stagnant black sewage water backing up onto streets or alleys."
+    clip_prompts:
+      - "a photo of black dirty sewage water overflowing on a street"
+      - "a photo of clogged sewer line spilling dirty effluent"
+    is_unrelated: false
+
+  # --- Electricity ---
+  - id: "damaged_electrical_infrastructure"
+    label: "damaged electrical infrastructure"
+    category: "Electricity"
+    problem_type: "Damaged Electrical Infrastructure"
+    description: "Damaged power distribution transformer, tilted electric pole, or open meter box."
+    clip_prompts:
+      - "a photo of a broken tilted electric pole"
+      - "a photo of a damaged electrical transformer or open junction box"
+    is_unrelated: false
+
+  - id: "exposed_electrical_wire"
+    label: "exposed electrical wire"
+    category: "Electricity"
+    problem_type: "Exposed / Dangling Wire"
+    description: "Snapped, dangling, or sparking high-voltage electrical wires on street."
+    clip_prompts:
+      - "a photo of dangling loose electrical wires hanging low over a street"
+      - "a photo of sparking electrical wire on a power pole"
+    is_unrelated: false
+
+  # --- Public Safety ---
+  - id: "broken_streetlight"
+    label: "broken streetlight"
+    category: "Public Safety"
+    problem_type: "Broken Streetlight"
+    description: "Broken, non-functional, or damaged street lamp on a road."
+    clip_prompts:
+      - "a photo of a broken street lamp post"
+      - "a photo of an unlit damaged streetlight on a road"
+    is_unrelated: false
+
+  - id: "fire"
+    label: "fire"
+    category: "Public Safety"
+    problem_type: "Fire Hazard"
+    description: "Active flames, fire, or burning municipal equipment/transformer."
+    clip_prompts:
+      - "a photo of a fire burning on a street or electrical pole"
+      - "a photo of flames and smoke from burning debris or transformer"
+    is_unrelated: false
+
+  - id: "accident"
+    label: "accident"
+    category: "Public Safety"
+    problem_type: "Accident Hazard"
+    description: "Vehicle crash, overturned vehicle, or road accident obstruction."
+    clip_prompts:
+      - "a photo of a vehicle collision or traffic accident on a road"
+      - "a photo of a damaged crashed car or motorcycle on street"
+    is_unrelated: false
+
+  - id: "public_space_damage"
+    label: "public-space damage"
+    category: "Education Infrastructure"
+    problem_type: "Public Facility Damage"
+    description: "Dilapidated government school building, cracked boundary wall, or broken public facility."
+    clip_prompts:
+      - "a photo of a cracked dilapidated school wall or ceiling"
+      - "a photo of collapsed boundary wall or broken public building"
+    is_unrelated: false
+
+  # --- Unrelated / Negative Concepts (Adversarial, Selfies, Indoor, Non-Civic) ---
+  - id: "fictional_character"
+    label: "fictional character"
+    category: "Other"
+    problem_type: "Unrelated / Non-Civic Content"
+    description: "Depiction of a fictional character, superhero, comic book art, cartoon illustration, or graphic artwork."
+    clip_prompts:
+      - "a photo or illustration of a comic book character or cartoon"
+      - "a drawing of a cartoon or animated fictional character"
+      - "an action figure or toy of a character"
+    is_unrelated: true
+
+  - id: "personal_portrait"
+    label: "personal portrait"
+    category: "Other"
+    problem_type: "Unrelated / Non-Civic Content"
+    description: "Close-up selfie or personal portrait of a person indoors or outdoors."
+    clip_prompts:
+      - "a close-up selfie photo of a person smiling"
+      - "a front-facing portrait photograph of a human face"
+    is_unrelated: true
+
+  - id: "indoor_room"
+    label: "indoor room"
+    category: "Other"
+    problem_type: "Unrelated / Non-Civic Content"
+    description: "Indoor living room, bedroom, sofa, or domestic home interior."
+    clip_prompts:
+      - "a photo of an indoor living room with sofa and furniture"
+      - "a photo of a bedroom or indoor domestic kitchen"
+    is_unrelated: true
+
+  - id: "document_text"
+    label: "document / screenshot"
+    category: "Other"
+    problem_type: "Unrelated / Non-Civic Content"
+    description: "Paper document, printed receipt, invoice, or screenshot of text."
+    clip_prompts:
+      - "a photo of a printed paper document, invoice, or receipt"
+      - "a digital screenshot of text or phone screen"
+    is_unrelated: true
+
+  - id: "animal_pet"
+    label: "domestic pet"
+    category: "Other"
+    problem_type: "Unrelated / Non-Civic Content"
+    description: "Domestic pet animal such as a pet cat or dog indoors."
+    clip_prompts:
+      - "a photo of a domestic pet cat or dog"
+      - "a photo of a pet animal playing indoors"
+    is_unrelated: true
+
+  - id: "unrelated_other"
+    label: "unrelated content"
+    category: "Other"
+    problem_type: "Unrelated / Non-Civic Content"
+    description: "Abstract pattern, solid color screen, digital meme, clip art, or non-civic scene."
+    clip_prompts:
+      - "an abstract digital graphic, meme, or computer wallpaper"
+      - "a photo of food, clothing, sports item, or indoor commodity"
+    is_unrelated: true
