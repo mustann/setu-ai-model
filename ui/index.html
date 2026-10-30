@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIH 2026 • Model 1: Report Structuring & Classification AI</title>
+  <meta name="description" content="Stage 1 module for Civic Problem Intelligence Platform: Multi-modal complaint classification, severity evaluation, completeness scoring, independent visual observation, and media relevance.">
+  
+  <!-- Modern Typography from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="container">
+    
+    <!-- Top Brand Header -->
+    <header>
+      <div class="brand-wrapper">
+        <span class="brand-badge">SIH 2026</span>
+        <div>
+          <h1 class="brand-title">Model 1 — Report Structuring & Classification AI</h1>
+          <p class="brand-subtitle">Civic Problem Intelligence Platform • Multi-Modal Ingestion & Structuring Pipeline</p>
+        </div>
+      </div>
+      <div class="system-status">
+        <a href="/download-zip" class="status-chip" style="background: rgba(16, 185, 129, 0.2); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.4); text-decoration: none; font-weight: 600; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px;" download="sih2026_model_deployable.zip">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          <span>Download Model ZIP (1.48 MB)</span>
+        </a>
+        <div class="status-chip">
+          <span class="pulse-dot"></span>
+          <span>Zero-Shot Vision AI: Ready</span>
+        </div>
+        <div class="status-chip">
+          <span>🛡️ Model 1: Advisory & Structuring Only</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Pipeline Boundary Banner -->
+    <div style="background: rgba(30, 41, 59, 0.6); border: 1px solid rgba(59, 130, 246, 0.3); border-radius: 12px; padding: 12px 18px; margin-bottom: 20px; font-size: 0.82rem; color: #cbd5e1; display: flex; justify-content: space-between; align-items: center;">
+      <div>
+        <strong style="color: #60a5fa;">📐 Model 1 Pipeline Boundary:</strong>
+        Answers <em>"What problem is reported, and does uploaded media visibly depict it?"</em> — Image trust, duplicate detection (pHash), and fraud scoring are reserved for downstream <strong>Model 2</strong>.
+      </div>
+      <span class="status-chip" style="background: rgba(59, 130, 246, 0.15); color: #93c5fd; border: 1px solid rgba(59, 130, 246, 0.3);">Stage 1 of 2</span>
+    </div>
+
+    <!-- Pre-built Scenarios Quick-Launcher -->
+    <section class="scenarios-section">
+      <div class="scenarios-header">
+        <span class="scenarios-title">⚡ Interactive Demo Scenarios (Click to Live-Execute)</span>
+        <span class="form-helper">Includes Mandatory Tests (Media Mismatch Test, Cross-Civic Mismatch, Blurry Media)</span>
+      </div>
+      <div class="scenario-cards" id="scenarioCardsContainer">
+        <!-- Injected via JavaScript -->
+      </div>
+    </section>
+
+    <!-- Main Workspace Split Screen -->
+    <main class="workspace-grid">
+      
+      <!-- Left Column: Citizen Submission & Ingestion Form -->
+      <section class="panel-card">
+        <h2 class="panel-title">
+          <span>📝 Citizen Complaint Ingestion</span>
+          <span class="form-helper" id="formStatus">Ready for input</span>
+        </h2>
+
+        <form id="reportForm">
+          <!-- Text Description -->
+          <div class="form-group">
+            <label class="form-label" for="reportText">
+              <span>Complaint Text Description</span>
+              <span class="form-helper" id="wordCounter">0 words</span>
+            </label>
+            <textarea 
+              id="reportText" 
+              class="textarea-custom" 
+              placeholder="e.g., There is a large pothole on the road near our school."
+              required
+            ></textarea>
+          </div>
+
+          <!-- Location -->
+          <div class="form-group">
+            <label class="form-label" for="reportLocation">
+              <span>Incident Location / GPS Coordinates</span>
+              <button type="button" class="btn-copy" id="btnDetectGps" style="padding: 2px 8px;">📍 Doranda GPS</button>
+            </label>
+            <input 
+              type="text" 
+              id="reportLocation" 
+              class="input-text" 
+              placeholder="e.g., 23.3440, 85.3090 (Near School Gate, Doranda, Ranchi)"
+            >
+          </div>
+
+          <!-- Timestamp -->
+          <div class="form-group">
+            <label class="form-label" for="reportTimestamp">
+              <span>Observation Timestamp (ISO-8601)</span>
+              <button type="button" class="btn-copy" id="btnNowTime" style="padding: 2px 8px;">⏱️ Current Time</button>
+            </label>
+            <input 
+              type="text" 
+              id="reportTimestamp" 
+              class="input-text" 
+              placeholder="e.g., 2026-09-07T18:30:00Z"
+            >
+          </div>
+
+          <!-- Media Attachment Dropzone -->
+          <div class="form-group">
+            <label class="form-label">
+              <span>Media Attachment (Photo / Video)</span>
+              <span>
+                <button type="button" class="btn-copy" id="btnLoadMismatch" style="padding: 2px 8px; font-size: 0.75rem; margin-right: 4px;">⚡ Load Mismatch Test</button>
+                <button type="button" class="btn-copy" id="btnLoadPothole" style="padding: 2px 8px; font-size: 0.75rem;">📷 Load Pothole Photo</button>
+                <span class="form-helper" id="mediaFileName" style="margin-left: 6px;">None</span>
+              </span>
+            </label>
+            
+            <div class="dropzone" id="mediaDropzone">
+              <input type="file" id="mediaFileInput" accept="image/*,video/*" style="display: none;">
+              <p style="font-size: 0.85rem; margin-bottom: 4px;">📸 Drop photo/video here or <strong style="color: var(--accent-blue);">Browse</strong></p>
+              <p class="form-helper">Supports JPEG, PNG, MP4 video keyframe analysis</p>
+            </div>
+
+            <div class="dropzone-preview" id="mediaPreviewContainer">
+              <img id="mediaPreviewImg" class="preview-img" src="" alt="Media preview">
+              <button type="button" class="remove-media-btn" id="btnRemoveMedia" title="Remove attachment">✕</button>
+            </div>
+          </div>
+
+          <!-- Hidden storage for demo asset name if preset is used -->
+          <input type="hidden" id="demoAssetName" value="">
+
+          <!-- Action Button -->
+          <button type="submit" class="btn-primary" id="btnSubmit">
+            <span class="spinner" id="btnSpinner"></span>
+            <span id="btnText">🚀 Execute Structuring & Classification AI</span>
+          </button>
+        </form>
+      </section>
+
+      <!-- Right Column: Live AI Diagnostic & Structuring Results -->
+      <section class="panel-card" id="resultsPanel">
+        <div class="panel-title">
+          <span>🧠 Model 1 Structured Machine-Readable Record</span>
+          <span class="status-chip" id="latencyBadge">Waiting for run...</span>
+        </div>
+
+        <!-- Advisory Review Status Banner -->
+        <div class="review-banner review-auto" id="reviewBanner">
+          <div>
+            <strong id="reviewTitle">Awaiting Complaint Ingestion</strong>
+            <div style="font-size: 0.78rem;" id="reviewSubtitle">Select a preset scenario above or submit a custom complaint to view multi-modal classification.</div>
+          </div>
+          <span class="status-chip" id="reviewChip">PENDING</span>
+        </div>
+
+        <!-- Top KPI Row -->
+        <div class="results-header">
+          <div class="kpi-card">
+            <div class="kpi-label">Overall Confidence</div>
+            <div class="kpi-value" id="kpiConfidence" style="color: var(--accent-blue);">--%</div>
+            <div class="kpi-subtext">Composite (Non-obscuring)</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label">Completeness Score</div>
+            <div class="kpi-value" id="kpiCompleteness" style="color: var(--accent-emerald);">--%</div>
+            <div class="kpi-subtext" id="kpiMissingCount">0 missing fields</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label">Media Relevance</div>
+            <div class="kpi-value" id="kpiMedia" style="color: var(--accent-cyan);">--</div>
+            <div class="kpi-subtext" id="kpiFramesChecked">Semantic Consistency</div>
+          </div>
+        </div>
+
+        <!-- Model 1 Three Pillars Grid per Section 22 -->
+        <div class="output-cards-grid">
+          
+          <!-- Pillar 1: REPORT UNDERSTANDING -->
+          <div class="section-box" style="border-top: 3px solid var(--accent-blue);">
+            <div class="section-box-title">
+              <span>🏛️ 1. REPORT UNDERSTANDING</span>
+              <span id="domainConfidenceBadge" class="status-chip">--</span>
+            </div>
+            
+            <div style="display: flex; justify-content: space-between; margin-bottom: 6px;">
+              <div>
+                <span class="form-helper">Category Domain:</span>
+                <div class="primary-domain" id="primaryDomainLabel" style="font-size: 1.1rem;">--</div>
+              </div>
+              <div style="text-align: right;">
+                <span class="form-helper">Specific Problem:</span>
+                <div style="font-weight: 700; color: #60a5fa; font-size: 1.05rem;" id="problemTypeLabel">--</div>
+              </div>
+            </div>
+
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+              <span class="form-helper">Severity:</span>
+              <div style="display: flex; align-items: center; gap: 6px;">
+                <span class="severity-badge sev-Low" id="severityLevelBadge">PENDING</span>
+                <span class="status-chip" id="severityConfidenceBadge">--</span>
+              </div>
+            </div>
+
+            <div class="progress-bar-wrap" style="margin-bottom: 8px;">
+              <div class="progress-bar-fill" id="domainConfidenceBar" style="width: 0%;"></div>
+            </div>
+
+            <div style="font-size: 0.75rem; color: var(--text-muted); margin-bottom: 8px;" id="textReasonText">
+              <em>Awaiting text reasoning...</em>
+            </div>
+
+            <div class="alternate-domains">
+              <div style="font-size: 0.70rem; font-weight: 600; color: var(--text-dim); margin-bottom: 4px; text-transform: uppercase;">
+                Severity Signals Detected
+              </div>
+              <div id="severitySignalsList">
+                <span style="font-size: 0.75rem; color: var(--text-dim);">Awaiting analysis</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pillar 2: MEDIA UNDERSTANDING -->
+          <div class="section-box" style="border-top: 3px solid var(--accent-purple);">
+            <div class="section-box-title">
+              <span>👁️ 2. MEDIA UNDERSTANDING</span>
+              <span id="mediaVisualConfidenceBadge" class="status-chip">--</span>
+            </div>
+            
+            <div class="form-helper" style="margin-bottom: 4px;">What the image visibly shows:</div>
+            <div class="justification-quote" id="visualDescriptionText" style="margin-bottom: 10px; font-weight: 500;">
+              "No media inspected yet."
+            </div>
+
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+              <span class="form-helper">Unrelated Content Flag:</span>
+              <span id="unrelatedBadge" class="status-chip">--</span>
+            </div>
+
+            <div style="font-size: 0.70rem; font-weight: 600; color: var(--text-dim); margin-bottom: 4px; text-transform: uppercase;">
+              Independent Visual Concepts
+            </div>
+            <div id="visualConceptsList" style="display: flex; flex-wrap: wrap; gap: 6px;">
+              <span style="font-size: 0.75rem; color: var(--text-dim);">None</span>
+            </div>
+          </div>
+
+          <!-- Pillar 3: TEXT ↔ MEDIA CHECK -->
+          <div class="section-box" style="border-top: 3px solid var(--accent-cyan);">
+            <div class="section-box-title">
+              <span>⚖️ 3. TEXT ↔ MEDIA CHECK</span>
+              <span id="claimMatchBadge" class="status-chip">--</span>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px; background: rgba(0,0,0,0.25); padding: 8px; border-radius: 8px;">
+              <div>
+                <span class="form-helper">Reported Problem:</span>
+                <div style="font-weight: 600; font-size: 0.85rem;" id="claimReportedProblem">--</div>
+              </div>
+              <div>
+                <span class="form-helper">Observed in Media:</span>
+                <div style="font-weight: 600; font-size: 0.85rem;" id="claimObservedProblem">--</div>
+              </div>
+            </div>
+
+            <div class="media-verdict" id="mediaVerdictText">
+              <span>Status: Awaiting analysis</span>
+            </div>
+
+            <div class="justification-quote" id="claimReasonText" style="margin-top: 8px;">
+              "Media comparison pending..."
+            </div>
+          </div>
+
+          <!-- Completeness & Guidance -->
+          <div class="section-box" style="border-top: 3px solid var(--accent-emerald);">
+            <div class="section-box-title">
+              <span>📋 COMPLETENESS & GUIDANCE</span>
+              <span id="completenessScoreBadge" class="status-chip">--</span>
+            </div>
+            <div id="missingFieldsContainer" style="margin-bottom: 8px;">
+              <span style="font-size: 0.75rem; color: var(--text-dim);">Awaiting analysis</span>
+            </div>
+            <div style="font-size: 0.70rem; font-weight: 600; color: var(--text-dim); margin-bottom: 4px; text-transform: uppercase;">
+              Citizen Recommendations
+            </div>
+            <div id="citizenSuggestionsList">
+              <span style="font-size: 0.75rem; color: var(--text-dim);">None</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Model 2 Integration Contract Box per Section 20-21 -->
+        <div style="margin-top: 16px; background: rgba(15, 23, 42, 0.8); border: 1px solid rgba(139, 92, 246, 0.3); border-radius: 12px; padding: 14px 18px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <span style="font-size: 0.78rem; font-weight: 700; color: #c084fc; text-transform: uppercase; letter-spacing: 0.5px;">
+              🔗 DOWNSTREAM MODEL 2 HANDOFF
+            </span>
+            <span class="status-chip" style="background: rgba(139, 92, 246, 0.15); color: #d8b4fe;">Advisory Structuring Only</span>
+          </div>
+          <div style="font-size: 0.75rem; color: #94a3b8; margin-bottom: 10px;">
+            Standardized Model 1 report payload handed off to downstream Model 2 (Evidence Trust AI). Trust scores, duplicate detection, and fraud heuristics are strictly evaluated downstream.
+          </div>
+          <pre class="json-container" id="model2JsonOutput" style="max-height: 120px; font-size: 0.75rem;"><code>{\n  "status": "Awaiting execution"\n}</code></pre>
+        </div>
+
+        <!-- Raw Structured JSON Viewer -->
+        <div class="json-header" style="margin-top: 16px;">
+          <span style="font-size: 0.78rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">
+            📄 Strict Section 17 JSON Output
+          </span>
+          <button type="button" class="btn-copy" id="btnCopyJson">📋 Copy Full JSON</button>
+        </div>
+        <pre class="json-container" id="jsonOutput"><code>{\n  "status": "Awaiting execution"\n}</code></pre>
+
+      </section>
+    </main>
+
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
